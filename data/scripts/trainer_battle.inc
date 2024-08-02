@@ -51,7 +51,9 @@ EventScript_DoNoIntroTrainerBattle::
 	waitmovement 0
 	clearflag FLAG_SAFE_FOLLOWER_MOVEMENT
 	special PlayTrainerEncounterMusic
+	setflag FLAG_DISABLE_BAG
 	dotrainerbattle
+	clearflag FLAG_DISABLE_BAG
 	gotopostbattlescript
 
 EventScript_TryDoRematchBattle::
@@ -116,7 +118,9 @@ EventScript_ShowTrainerIntroMsg::
 	goto EventScript_DoTrainerBattle
 
 EventScript_DoTrainerBattle::
+	setflag FLAG_DISABLE_BAG
 	dotrainerbattle
+	clearflag FLAG_DISABLE_BAG
 	@ Below battle mode check only needed in FRLG
 	specialvar VAR_RESULT, GetTrainerBattleMode
 	goto_if_eq VAR_RESULT, TRAINER_BATTLE_SINGLE, EventScript_EndTrainerBattle
