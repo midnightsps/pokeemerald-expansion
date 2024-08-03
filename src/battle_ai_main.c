@@ -1525,11 +1525,11 @@ static s32 AI_CheckBadMove(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
             break;
         case EFFECT_SUBSTITUTE:
             if (gBattleMons[battlerAtk].status2 & STATUS2_SUBSTITUTE || aiData->abilities[battlerDef] == ABILITY_INFILTRATOR)
-                ADJUST_SCORE(-20);
+                ADJUST_SCORE(-10);
             else if (aiData->hpPercents[battlerAtk] <= 50)
-                ADJUST_SCORE(-20);
+                ADJUST_SCORE(-10);
             else if (HasSubstituteIgnoringMove(battlerDef))
-                ADJUST_SCORE(-8);
+                ADJUST_SCORE(-3);
             break;
         case EFFECT_LEECH_SEED:
             if (gStatuses3[battlerDef] & STATUS3_LEECHSEED
