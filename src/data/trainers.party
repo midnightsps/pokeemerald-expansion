@@ -5947,11 +5947,34 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Poochyena
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Poochyena  
+Ability: Rattled  
+Level: 6  
+Jolly Nature  
+- Bite  
+- Play Rough  
+- Fire Fang  
+- Howl  
+
+Snubbull  
+Ability: Intimidate  
+Level: 6  
+Adamant Nature  
+- Play Rough  
+- Psychic Fangs  
+- Bulldoze  
+- Thunder Wave  
+
+Stunky  
+Ability: Stench  
+Level: 6  
+Jolly Nature  
+- Poison Tail  
+- Night Slash  
+- Sucker Punch  
+- Temper Flare  
 
 === TRAINER_BILLY ===
 Name: BILLY
@@ -6213,15 +6236,40 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Zigzagoon
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Toedscool @ Berry Juice  
+Ability: Mycelium Might  
+Level: 7  
+Timid Nature  
+- Mud Shot  
+- Mega Drain  
+- Knock Off  
 
-Taillow
-Level: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gothita @ Berry Juice  
+Ability: Shadow Tag  
+Level: 7  
+Modest Nature  
+IVs: 0 Atk  
+- Psybeam  
+- Thunderbolt  
+- Energy Ball  
+
+Zorua @ Berry Juice  
+Ability: Illusion  
+Level: 7  
+Naive Nature  
+- Knock Off  
+- Sucker Punch  
+- U-turn  
+
+Mankey @ Berry Juice  
+Ability: Defiant  
+Level: 5   
+Jolly Nature  
+- Low Sweep  
+- Ice Punch  
+- U-turn  
 
 === TRAINER_TIMMY ===
 Name: TIMMY
@@ -6246,9 +6294,8 @@ Class: Champion
 Pic: Champion Wallace
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 Mugshot: Yellow
 
 Wailord
@@ -11051,15 +11098,35 @@ Pic: Lass
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Zigzagoon
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Cottonee @ Berry Juice  
+Ability: Prankster  
+Level: 6  
+Timid Nature  
+IVs: 0 Atk  
+- Mega Drain  
+- Fairy Wind  
+- Stun Spore  
+- Memento  
 
-Shroomish
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mienfoo @ Berry Juice  
+Ability: Regenerator  
+Level: 6  
+Jolly Nature  
+- Force Palm  
+- Reversal  
+- Knock Off  
+- U-turn  
+
+Grookey @ Berry Juice  
+Ability: Overgrow  
+Level: 5  
+Jolly Nature  
+- Razor Leaf  
+- Acrobatics  
+- Drain Punch  
+- Swords Dance  
 
 === TRAINER_HALEY_1 ===
 Name: HALEY
@@ -11255,15 +11322,40 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Wurmple
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Venipede @ Berry Juice  
+Ability: Speed Boost  
+Level: 5  
+Careful Nature  
+- Pin Missile  
+- Spikes  
+- Protect  
 
-Wurmple
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Caterpie @ Berry Juice  
+Ability: Shield Dust  
+Level: 5  
+Naughty Nature  
+- Bug Bite  
+- Electroweb  
+- String Shot  
+
+Sewaddle @ Berry Juice  
+Ability: Swarm  
+Level: 5  
+Modest Nature  
+IVs: 1 Atk / 30 Def / 30 SpD / 30 Spe  
+- Struggle Bug  
+- Giga Drain  
+- Hidden Power [Rock]  
+
+Nymble @ Silver Powder  
+Ability: Tinted Lens  
+Level: 5  
+Adamant Nature  
+- First Impression  
+- Pounce  
+- Sucker Punch 
 
 === TRAINER_LYLE ===
 Name: LYLE
