@@ -1750,8 +1750,7 @@ static bool32 UpdateRandomTrainerRematches(const struct RematchTrainer *table, u
             // Trainer already wants a rematch. Don't bother updating it.
             return TRUE;
         }
-        else if (TrainerIsMatchCallRegistered(i) && ((Random() % 100) <= 30))
-            // 31% chance of getting a rematch.
+        else if (TrainerIsMatchCallRegistered(i))
         {
             SetRematchIdForTrainer(table, i);
             return TRUE;
@@ -1895,12 +1894,9 @@ static u32 GetTrainerMatchCallFlag(u32 trainerId)
 
 static void RegisterTrainerInMatchCall(void)
 {
-    if (FlagGet(FLAG_HAS_MATCH_CALL))
-    {
-        u32 matchCallFlagId = GetTrainerMatchCallFlag(gTrainerBattleOpponent_A);
-        if (matchCallFlagId != 0xFFFF)
-            FlagSet(matchCallFlagId);
-    }
+    u32 matchCallFlagId = GetTrainerMatchCallFlag(gTrainerBattleOpponent_A);
+    if (matchCallFlagId != 0xFFFF)
+        FlagSet(matchCallFlagId);
 }
 
 static bool8 WasSecondRematchWon(const struct RematchTrainer *table, u16 firstBattleTrainerId)
