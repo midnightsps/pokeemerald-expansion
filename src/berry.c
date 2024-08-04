@@ -1792,40 +1792,40 @@ void ClearBerryTrees(void)
 
 bool32 BerryTreeGrow(struct BerryTree *tree)
 {
-    if (tree->stopGrowth)
-        return FALSE;
+    // if (tree->stopGrowth)
+    //     return FALSE;
 
-    switch (tree->stage)
-    {
-    case BERRY_STAGE_NO_BERRY:
-        return FALSE;
-    case BERRY_STAGE_FLOWERING:
-        tree->berryYield = CalcBerryYield(tree);
-    case BERRY_STAGE_PLANTED:
-    case BERRY_STAGE_SPROUTED:
-    case BERRY_STAGE_TRUNK:
-        tree->stage++;
-        break;
-    case BERRY_STAGE_TALLER:
-        if (OW_BERRY_SIX_STAGES)
-            tree->stage = BERRY_STAGE_TRUNK;
-        else
-            tree->stage++;
-        break;
-    case BERRY_STAGE_BUDDING:
-        tree->berryYield = CalcBerryYield(tree);
-        tree->stage = BERRY_STAGE_BERRIES;
-        break;
-    case BERRY_STAGE_BERRIES:
-        tree->watered = 0;
-        tree->berryYield = 0;
-        tree->stage = BERRY_STAGE_SPROUTED;
-        tree->moistureLevel = 100;
-        if (++tree->regrowthCount == ((tree->mulch == ITEM_TO_MULCH(ITEM_GOOEY_MULCH)) ? 15 : 10))
-            *tree = gBlankBerryTree;
-        break;
-    }
-    return TRUE;
+    // switch (tree->stage)
+    // {
+    // case BERRY_STAGE_NO_BERRY:
+    //     return FALSE;
+    // case BERRY_STAGE_FLOWERING:
+    //     tree->berryYield = CalcBerryYield(tree);
+    // case BERRY_STAGE_PLANTED:
+    // case BERRY_STAGE_SPROUTED:
+    // case BERRY_STAGE_TRUNK:
+    //     tree->stage++;
+    //     break;
+    // case BERRY_STAGE_TALLER:
+    //     if (OW_BERRY_SIX_STAGES)
+    //         tree->stage = BERRY_STAGE_TRUNK;
+    //     else
+    //         tree->stage++;
+    //     break;
+    // case BERRY_STAGE_BUDDING:
+    //     tree->berryYield = CalcBerryYield(tree);
+    //     tree->stage = BERRY_STAGE_BERRIES;
+    //     break;
+    // case BERRY_STAGE_BERRIES:
+    //     tree->watered = 0;
+    //     tree->berryYield = 0;
+    //     tree->stage = BERRY_STAGE_SPROUTED;
+    //     tree->moistureLevel = 100;
+    //     if (++tree->regrowthCount == ((tree->mulch == ITEM_TO_MULCH(ITEM_GOOEY_MULCH)) ? 15 : 10))
+    //         *tree = gBlankBerryTree;
+    //     break;
+    // }
+    return FALSE;
 }
 
 static u16 GetMulchAffectedGrowthRate(u16 berryDuration, u8 mulch, u8 stage)

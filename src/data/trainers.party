@@ -2119,13 +2119,38 @@ Class: Lady
 Pic: Lady
 Gender: Female
 Music: Female
-Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Zigzagoon @ Nugget
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Natu @ Twisted Spoon  
+Ability: Magic Bounce  
+Level: 8  
+Hasty Nature  
+- Psychic  
+- Heat Wave  
+- Ominous Wind  
+- Sucker Punch  
+
+Mudbray @ Berry Juice  
+Ability: Stamina  
+Level: 8  
+Adamant Nature  
+- Bulldoze  
+- Low Sweep  
+- Iron Head  
+- Rock Tomb  
+
+Foongus @ Berry Juice  
+Ability: Regenerator  
+Level: 7  
+Modest Nature  
+IVs: 0 Atk  
+- Mega Drain  
+- Sludge Bomb  
+- Spore  
+- Synthesis  
+
+
 
 === TRAINER_DAPHNE ===
 Name: DAPHNE
@@ -5983,15 +6008,34 @@ Pic: Running Triathlete M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Zigzagoon
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Vullaby @ Berry Juice  
+Ability: Weak Armor  
+Level: 7  
+Impish Nature  
+- Pluck  
+- Lash Out  
+- U-turn  
+- Roost  
 
-Seedot
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Archen @ Berry Juice  
+Ability: Defeatist  
+Level: 7  
+Naive Nature  
+- Rock Tomb  
+- Bounce  
+- Bulldoze  
+- Heat Wave  
+
+Doduo @ Sharp Beak  
+Ability: Early Bird  
+Level: 7   
+Jolly Nature  
+- Pluck  
+- Quick Attack  
+- Knock Off  
+- Protect  
 
 === TRAINER_JOSH ===
 Name: JOSH
@@ -11329,7 +11373,7 @@ Ability: Speed Boost
 Level: 5  
 Careful Nature  
 - Pin Missile  
-- Spikes  
+- Endeavor  
 - Protect  
 
 Caterpie @ Berry Juice  
@@ -13066,11 +13110,41 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Magikarp
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Magikarp @ Choice Band  
+Ability: Rattled  
+Level: 9   
+Adamant Nature  
+- Bounce  
+
+Mareanie @ Berry Juice  
+Ability: Regenerator  
+Level: 8  
+Modest Nature  
+IVs: 0 Atk  
+- Acid Spray  
+- Muddy Water  
+- Icy Wind  
+- Recover  
+
+Chinchou @ Berry Juice  
+Ability: Volt Absorb  
+Level: 7  
+Modest Nature  
+- Muddy Water  
+- Electroweb  
+- Icy Wind  
+- Flip Turn  
+
+Shellder @ Focus Sash  
+Ability: Skill Link  
+Level: 7  
+Adamant Nature 
+- Waterfall  
+- Icicle Spear  
+- Rock Blast  
+- Shell Smash  
 
 === TRAINER_HAILEY ===
 Name: HAILEY

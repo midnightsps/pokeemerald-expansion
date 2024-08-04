@@ -367,7 +367,7 @@ SlateportCity_OceanicMuseum_1F_Text_FossilDisplay:
 	.string "It's a fossil with wavy ridges on it.\p"
 	.string "“Soil on the ocean floor gets scoured\n"
 	.string "by the tide.\p"
-	.string "“The flowing seawater marks the soil\n"
+	.string "“The flowing seawater marks the \n"
 	.string "with small ridges and valleys.\p"
 	.string "“If this soil becomes fossilized, it is\n"
 	.string "called a ripple mark.”$"
