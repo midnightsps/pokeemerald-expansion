@@ -229,11 +229,52 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Poochyena
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ferroseed @ Leftovers  
+Ability: Iron Barbs  
+Level: 8  
+Impish Nature  
+- Stealth Rock  
+- Metal Claw  
+- Leech Seed  
+- Protect  
+
+Diglett @ Soft Sand  
+Ability: Arena Trap  
+Level: 8  
+Jolly Nature  
+- Stomping Tantrum  
+- Sucker Punch  
+- Beat Up  
+- Substitute  
+
+Timburr @ Focus Sash  
+Ability: Guts  
+Level: 9  
+Adamant Nature  
+- Force Palm  
+- Mach Punch  
+- Knock Off  
+- Ice Punch  
+
+Carvanha @ Scope Lens  
+Ability: Speed Boost  
+Level: 8  
+Adamant Nature  
+- Flip Turn  
+- Bite  
+- Zen Headbutt  
+- Protect  
+
+Corphish @ Scope Lens  
+Ability: Adaptability  
+Level: 8  
+Adamant Nature  
+- Crabhammer  
+- Aqua Jet  
+- Fury Cutter  
+- Dragon Dance  
 
 === TRAINER_MARCEL ===
 Name: MARCEL
@@ -11408,23 +11449,34 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Wurmple
-Level: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Surskit @ Focus Sash  
+Ability: Swift Swim  
+Level: 8  
+Mild Nature  
+- Water Pulse  
+- Icy Wind  
+- Giga Drain  
+- Aqua Jet  
 
-Wurmple
-Level: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Kricketot @ Focus Sash  
+Ability: Shed Skin  
+Level: 8  
+Jolly Nature  
+- Endeavor  
+- String Shot  
+- Bug Bite  
+- Growl  
 
-Wurmple
-Level: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Wurmple
-Level: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Larvesta @ Focus Sash  
+Ability: Flame Body  
+Level: 8  
+Impish Nature  
+- Flame Wheel  
+- U-turn  
+- Will-O-Wisp  
+- Morning Sun  
 
 === TRAINER_JOSE ===
 Name: JOSE
@@ -11497,15 +11549,35 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Nincada
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dewpider @ Mystic Water  
+Ability: Water Bubble  
+Level: 9  
+Lonely Nature  
+- Bubble Beam  
+- Pounce  
+- Icy Wind  
+- Bite  
 
-Nincada
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Blipbug @ Focus Sash  
+Ability: Swarm  
+Level: 8  
+Calm Nature
+IVs: 0 Atk  
+- Struggle Bug  
+- Infestation  
+- Supersonic  
+- Recover  
+
+Dwebble @ Berry Juice  
+Ability: Sturdy  
+Level: 9  
+Adamant Nature  
+- Rock Tomb  
+- Bulldoze  
+- Night Slash  
+- Shell Smash  
 
 === TRAINER_JAMES_2 ===
 Name: JAMES
