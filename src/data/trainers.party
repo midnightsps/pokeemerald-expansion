@@ -2589,13 +2589,36 @@ Class: Rich Boy
 Pic: Rich Boy
 Gender: Male
 Music: Rich
-Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Zigzagoon @ Nugget
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gastly @ Focus Sash  
+Ability: Levitate  
+Level: 8  
+Timid Nature  
+IVs: 0 Atk  
+- Ominous Wind  
+- Acid Spray  
+- Dazzling Gleam  
+- Will-O-Wisp  
+
+Pawniard @ Leftovers  
+Ability: Inner Focus  
+Level: 8   
+Adamant Nature  
+- Knock Off  
+- Metal Claw  
+- Sucker Punch  
+- Swords Dance  
+
+Meowth @ Focus Sash  
+Ability: Technician  
+Level: 8  
+Jolly Nature  
+- Fake Out  
+- Pay Day  
+- U-turn  
+- Play Rough  
 
 === TRAINER_MOLLIE ===
 Name: MOLLIE
@@ -6459,19 +6482,53 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Magikarp
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Finneon @ Mystic Water  
+Ability: Swift Swim  
+Level: 9  
+Modest Nature  
+- Water Pulse  
+- Icy Wind  
+- U-turn  
+- Rain Dance  
 
-Magikarp
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Barboach @ Sharp Beak  
+Ability: Hydration  
+Level: 9  
+Adamant Nature  
+- Waterfall  
+- Bulldoze  
+- Bounce  
+- Dragon Dance  
 
-Magikarp
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tynamo @ Scope Lens  
+Ability: Levitate  
+Level: 9  
+Adamant Nature  
+- Spark  
+- Knock Off  
+- Thunder Wave  
+- Charge  
+
+Remoraid @ Scope Lens  
+Ability: Sniper  
+Level: 9  
+Modest Nature  
+IVs: 0 Atk / 30 SpA  
+- Water Pulse  
+- Hidden Power
+- Incinerate  
+- Icy Wind  
+
+Goldeen @ Sharp Beak  
+Ability: Swift Swim  
+Level: 9  
+Adamant Nature  
+- Waterfall  
+- Bounce  
+- Drill Run  
+- Knock Off  
 
 === TRAINER_CLAUDE ===
 Name: CLAUDE
@@ -8936,15 +8993,27 @@ Pic: Twins
 Gender: Male
 Music: Twins
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Seedot
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Illumise @ Focus Sash  
+Ability: Tinted Lens  
+Level: 8  
+Timid Nature  
+IVs: 0 Atk  
+- Struggle Bug  
+- Charge Beam  
+- Growth  
+- Protect  
 
-Lotad
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Volbeat @ Berry Juice  
+Ability: Prankster  
+Level: 8  
+Calm Nature  
+IVs: 0 Atk  
+- Light Screen  
+- Charm  
+- Moonlight  
+- Helping Hand  
 
 === TRAINER_MIU_AND_YUKI ===
 Name: MIU & YUKI
@@ -11220,15 +11289,35 @@ Pic: Lass
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Lotad
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Spritzee @ Berry Juice  
+Ability: Aroma Veil  
+Level: 9  
+Calm Nature  
+IVs: 0 Atk  
+- Moonblast  
+- Psychic  
+- Wish  
+- Protect  
 
-Shroomish
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Bunnelby @ Focus Sash  
+Ability: Huge Power  
+Level: 9  
+Adamant Nature  
+- Secret Power  
+- Bulldoze  
+- Quick Attack  
+- Rock Tomb  
+
+Azurill @ Berry Juice  
+Ability: Huge Power  
+Level: 9  
+Adamant Nature  
+- Secret Power  
+- Aqua Jet  
+- Belly Drum  
+- Protect  
 
 === TRAINER_JANICE ===
 Name: JANICE

@@ -5651,7 +5651,7 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
 
             DisplayPartyMenuMessage(gStringVar4, TRUE);
             ScheduleBgCopyTilemapToVram(2);
-            gTasks[taskId].func = Task_DisplayLevelUpStatsPg1;
+            gTasks[taskId].func = Task_TryLearnNewMoves;
         }
         else
         {
@@ -5744,7 +5744,7 @@ void ItemUseCB_InfiniteCandy(u8 taskId, TaskFunc task)
 
             DisplayPartyMenuMessage(gStringVar4, TRUE);
             ScheduleBgCopyTilemapToVram(2);
-            gTasks[taskId].func = Task_DisplayLevelUpStatsPg1;
+            gTasks[taskId].func = Task_TryLearnNewMoves;
         }
         else
         {
