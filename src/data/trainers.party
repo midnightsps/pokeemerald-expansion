@@ -46,7 +46,7 @@ Optional fields for Pokemon:
           (Order does not matter)
     - EVs (252 HP / 128 Spe / 48 Def, defaults to all 0, is not capped at 512 total)
           (Order does not matter)
-    - Ball (Poke Ball or ITEM_POKE_BALL, defaults to Poke Ball
+    - Ball (Poke Ball or ITEM_POKE_BALL, defaults to Poke Ball)
     - Happiness (Number between 1 and 255)
     - Nature (Rash or NATURE_RASH, defaults to Hardy)
     - Shiny (Yes/No, defaults to No)
@@ -230,6 +230,7 @@ Gender: Male
 Music: Aqua
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
+Mugshot: Blue
 
 Ferroseed @ Leftovers  
 Ability: Iron Barbs  
@@ -5220,11 +5221,36 @@ Pic: School Kid M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Ralts
-Level: 9
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Vulpix @ Berry Juice  
+Ability: Drought  
+Level: 10  
+Hasty Nature  
+- Mystical Fire  
+- Energy Ball  
+- Flame Charge  
+- Hypnosis  
+
+Bellsprout @ Poison Barb  
+Ability: Chlorophyll  
+Level: 9  
+Modest Nature  
+IVs: 1 Atk / 30 Def / 30 SpD / 30 Spe  
+- Solar Beam  
+- Sludge Bomb  
+- Hidden Power
+- Sleep Powder  
+
+Charmander @ Focus Sash  
+Ability: Solar Power  
+Level: 10  
+Modest Nature  
+IVs: 0 Atk / 30 SpA  
+- Flamethrower  
+- Focus Blast  
+- Hidden Power
+- Sleep Talk  
 
 === TRAINER_TED ===
 Name: TED
@@ -5339,11 +5365,35 @@ Pic: School Kid F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Shroomish
-Level: 9
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Snivy @ Berry Juice  
+Ability: Overgrow  
+Level: 9  
+Mild Nature  
+- Leaf Tornado  
+- Knock Off  
+- Hidden Power 
+- Glare  
+
+Staryu @ Scope Lens  
+Ability: Analytic  
+Level: 9    
+Timid Nature  
+IVs: 0 Atk  
+- Water Pulse  
+- Thunderbolt  
+- Ice Beam  
+- Recover  
+
+Torchic @ Soft Sand  
+Ability: Speed Boost  
+Level: 9  
+Modest Nature  
+- Flamethrower  
+- Hidden Power
+- Protect  
+- Substitute  
 
 === TRAINER_GEORGIA ===
 Name: GEORGIA
@@ -6095,11 +6145,11 @@ Naive Nature
 Doduo @ Sharp Beak  
 Ability: Early Bird  
 Level: 7   
-Jolly Nature  
+Naive Nature  
 - Pluck  
 - Quick Attack  
 - Knock Off  
-- Protect  
+- Hidden Power  
 
 === TRAINER_JOSH ===
 Name: JOSH
@@ -6139,11 +6189,44 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Machop
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Minccino @ Black Glasses  
+Ability: Skill Link  
+Level: 10  
+Jolly Nature  
+- Double Slap  
+- Knock Off  
+- U-turn  
+- Tidy Up  
+
+Trapinch @ Berry Juice  
+Ability: Arena Trap  
+Level: 10  
+Adamant Nature  
+- Bulldoze  
+- Rock Tomb  
+- First Impression  
+- Bug Bite  
+
+Voltorb-Hisui @ Berry Juice  
+Ability: Static  
+Level: 10  
+Timid Nature  
+IVs: 0 Atk  
+- Volt Switch  
+- Giga Drain  
+- Electro Ball  
+- Thunder Wave  
+
+Growlithe-Hisui @ Focus Sash  
+Ability: Intimidate  
+Level: 10   
+Adamant Nature  
+- Rock Tomb  
+- Flame Wheel  
+- Thunder Fang  
+- Will-O-Wisp  
 
 === TRAINER_BEN ===
 Name: BEN
@@ -8999,11 +9082,10 @@ Illumise @ Focus Sash
 Ability: Tinted Lens  
 Level: 8  
 Timid Nature  
-IVs: 0 Atk  
 - Struggle Bug  
 - Charge Beam  
-- Growth  
-- Protect  
+- Hidden Power
+- Growth 
 
 Volbeat @ Berry Juice  
 Ability: Prankster  
@@ -11316,8 +11398,8 @@ Level: 9
 Adamant Nature  
 - Secret Power  
 - Aqua Jet  
-- Belly Drum  
-- Protect  
+- Bounce
+- Belly Drum
 
 === TRAINER_JANICE ===
 Name: JANICE
@@ -11326,11 +11408,34 @@ Pic: Lass
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Marill
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Sprigatito @ Focus Sash  
+Ability: Protean  
+Level: 10  
+Adamant Nature  
+- Trailblaze  
+- U-turn  
+- Bite  
+- Shadow Claw  
+
+Fletchling @ Berry Juice  
+Ability: Gale Wings  
+Level: 10  
+Naive Nature  
+- Acrobatics  
+- Flame Charge  
+- Hidden Power 
+- Swords Dance  
+
+Tinkatink @ Berry Juice  
+Ability: Pickpocket  
+Level: 9  
+Adamant Nature  
+- Play Rough  
+- Metal Claw  
+- Knock Off  
+- Thunder Wave  
 
 === TRAINER_VIVI ===
 Name: VIVI
@@ -11574,15 +11679,45 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Wurmple
-Level: 8
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Spinarak @ Focus Sash  
+Ability: Insomnia  
+Level: 10  
+Adamant Nature  
+- Pounce  
+- Cross Poison  
+- Dig  
+- Bounce  
 
-Nincada
-Level: 8
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Joltik @ Silver Powder  
+Ability: Swarm  
+Level: 10  
+Modest Nature  
+IVs: 0 Atk  
+- Volt Switch  
+- Charge Beam  
+- Struggle Bug  
+- Energy Ball  
+
+Paras @ Berry Juice  
+Ability: Effect Spore  
+Level: 10  
+Adamant Nature  
+- Bullet Seed  
+- Bug Bite  
+- Knock Off  
+- Spore  
+
+Beautifly @ Silver Powder  
+Ability: Swarm  
+Level: 10 
+Bold Nature  
+IVs: 1 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe  
+- Silver Wind  
+- Hidden Power  
+- Quiver Dance  
+- Roost  
 
 === TRAINER_DOUG ===
 Name: DOUG
@@ -11844,11 +11979,35 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Geodude
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Nosepass @ Berry Juice  
+Ability: Sturdy  
+Level: 10  
+Modest Nature  
+IVs: 0 Atk / 30 Def  
+- Ancient Power  
+- Volt Switch  
+- Hidden Power
+- Thunder Wave  
+
+Rhyhorn @ Scope Lens  
+Ability: Lightning Rod  
+Level: 10  
+Adamant Nature  
+- Bulldoze  
+- Rock Tomb  
+- Swords Dance  
+- Rock Polish  
+
+Phanpy @ Focus Sash  
+Ability: Pickup  
+Level: 10    
+Adamant Nature  
+- Bulldoze  
+- Knock Off  
+- Ice Shard  
+- Iron Tail  
 
 === TRAINER_ERIC ===
 Name: ERIC
@@ -13236,15 +13395,35 @@ Pic: Rich Boy
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Zigzagoon @ Nugget
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Wingull @ Berry Juice  
+Ability: Keen Eye  
+Level: 10  
+Hasty Nature  
+- Muddy Water  
+- Air Cutter  
+- Knock Off  
+- Roost  
 
-Poochyena
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ponyta @ Berry Juice  
+Ability: Flame Body  
+Level: 10  
+Jolly Nature  
+- Flame Wheel  
+- Wild Charge  
+- High Horsepower  
+- Bounce  
+
+Magnemite @ Leftovers  
+Ability: Analytic  
+Level: 9  
+Modest Nature  
+IVs: 0 Atk / 30 Def  
+- Volt Switch  
+- Mirror Shot  
+- Charge Beam  
+- Hidden Power  
 
 === TRAINER_SARAH ===
 Name: SARAH
@@ -13252,17 +13431,36 @@ Class: Lady
 Pic: Lady
 Gender: Female
 Music: Female
-Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Lotad
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Abra @ Focus Sash  
+Ability: Magic Guard  
+Level: 10  
+Timid Nature  
+IVs: 0 Atk  
+- Psychic  
+- Shadow Ball  
+- Thunder Wave 
+- Counter  
 
-Zigzagoon @ Nugget
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tirtouga @ Scope Lens  
+Ability: Solid Rock  
+Level: 10   
+Adamant Nature  
+- Waterfall  
+- Rock Slide  
+- Zen Headbutt  
+- Shell Smash  
+
+Deerling @ Berry Juice  
+Ability: Serene Grace  
+Level: 10  
+Jolly Nature  
+- Secret Power  
+- Zen Headbutt  
+- Thunder Wave  
+- Synthesis  
 
 === TRAINER_DARIAN ===
 Name: DARIAN
@@ -14184,15 +14382,34 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Geodude
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Geodude @ Berry Juice  
+Ability: Sturdy  
+Level: 10  
+Adamant Nature  
+- Rock Tomb  
+- Stomping Tantrum  
+- Sucker Punch  
+- Counter  
 
-Geodude
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Roggenrola @ Berry Juice  
+Ability: Weak Armor  
+Level: 9  
+Adamant Nature  
+- Rock Tomb  
+- Bulldoze  
+- Rock Smash  
+- Explosion  
+
+Onix @ Berry Juice  
+Ability: Sturdy  
+Level: 9  
+Jolly Nature  
+- Bulldoze  
+- Rock Tomb  
+- Endure  
+- Self-Destruct  
 
 === TRAINER_JOHNSON ===
 Name: JOHNSON
@@ -14201,15 +14418,34 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Shroomish
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Hippopotas @ Berry Juice  
+Ability: Sand Stream  
+Level: 9  
+Adamant Nature  
+- Bulldoze  
+- Rock Tomb  
+- Thunder Fang  
+- Slack Off  
 
-Lotad
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Diglett-Alola @ Metal Coat  
+Ability: Sand Force  
+Level: 9  
+Jolly Nature  
+- Bulldoze  
+- Metal Claw  
+- Rock Tomb 
+- Substitute  
+
+Sandshrew @ Scope Lens  
+Ability: Sand Rush  
+Level: 9  
+Adamant Nature  
+- Dig  
+- Rock Slide  
+- Fury Cutter  
+- Swords Dance
 
 === TRAINER_MELINA ===
 Name: MELINA
