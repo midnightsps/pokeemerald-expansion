@@ -362,11 +362,65 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
+Mugshot: Blue
 
-Poochyena
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Riolu @ Berry Juice  
+Ability: Prankster  
+Level: 14  
+Adamant Nature  
+- Low Sweep  
+- Bite  
+- Rain Dance  
+- Copycat  
+
+Shroodle @ Focus Sash  
+Ability: Unburden  
+Level: 14  
+Adamant Nature  
+- Poison Fang  
+- Knock Off  
+- Dig  
+- Swords Dance  
+
+Espurr @ Magnet  
+Ability: Infiltrator  
+Level: 13  
+Modest Nature  
+IVs: 0 Atk  
+- Psybeam  
+- Dark Pulse  
+- Charge Beam  
+- Substitute  
+
+Wattrel @ Berry Juice  
+Ability: Volt Absorb  
+Level: 15  
+Timid Nature  
+IVs: 0 Atk  
+- Electroweb  
+- Air Slash  
+- Volt Switch  
+- Roost  
+
+Buizel @ Focus Sash  
+Ability: Swift Swim  
+Level: 13   
+Adamant Nature  
+- Waterfall  
+- Aqua Jet  
+- Ice Fang  
+- Power-Up Punch  
+
+Psyduck @ Focus Sash  
+Ability: Swift Swim  
+Level: 14   
+Modest Nature  
+IVs: 0 Atk  
+- Muddy Water  
+- Ice Beam  
+- Psybeam  
+- Nasty Plot  
 
 === TRAINER_GRUNT_WEATHER_INST_1 ===
 Name: GRUNT
@@ -4884,33 +4938,65 @@ Class: Leader
 Pic: Leader Roxanne
 Gender: Female
 Music: Female
-Items: Potion / Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
+Mugshot: Purple
 
-Geodude
-Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+Shuckle @ Berry Juice  
+Ability: Sturdy  
+Level: 15  
+Calm Nature  
+IVs: 0 Atk  
+- Final Gambit  
+- Stealth Rock  
+- Encore  
+- Sticky Web  
 
-Geodude
-Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+Tirtouga @ Lum Berry  
+Ability: Solid Rock  
+Level: 14   
+Adamant Nature  
+- Liquidation  
+- Stone Edge  
+- Bulldoze  
+- Zen Headbutt  
 
-Nosepass @ Oran Berry
-Level: 15
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Block
-- Harden
-- Tackle
-- Rock Tomb
+Naclstack @ Berry Juice  
+Ability: Purifying Salt  
+Level: 14  
+Careful Nature  
+- Salt Cure  
+- Body Press  
+- Iron Defense  
+- Recover  
+
+Nosepass @ Berry Juice  
+Ability: Sturdy  
+Level: 14   
+Adamant Nature  
+- Rock Blast  
+- Attract  
+- Thunder Wave  
+- Self-Destruct  
+
+Lunatone @ Hard Stone  
+Ability: Levitate  
+Level: 14  
+Modest Nature  
+IVs: 0 Atk  
+- Psychic  
+- Ancient Power  
+- Earth Power  
+- Rock Polish  
+
+Drednaw @ Focus Sash  
+Ability: Strong Jaw  
+Level: 15  
+Adamant Nature  
+- Waterfall  
+- Rock Slide  
+- Bite  
+- Shell Smash  
 
 === TRAINER_BRAWLY_1 ===
 Name: BRAWLY
@@ -5232,12 +5318,12 @@ Hasty Nature
 - Flame Charge  
 - Hypnosis  
 
-Bellsprout @ Poison Barb  
+Bellsprout @ Miracle Seed
 Ability: Chlorophyll  
 Level: 9  
 Modest Nature  
 IVs: 1 Atk / 30 Def / 30 SpD / 30 Spe  
-- Solar Beam  
+- Giga Drain 
 - Sludge Bomb  
 - Hidden Power
 - Sleep Powder  
@@ -6158,12 +6244,41 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Geodude
-Level: 10
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
+Geodude-Alola @ Choice Band  
+Ability: Sturdy  
+Level: 15  
+Adamant Nature  
+- Self-Destruct  
+
+Yanma @ Focus Sash  
+Ability: Compound Eyes  
+Level: 11   
+Timid Nature  
+IVs: 0 Atk  
+- Silver Wind  
+- Air Cutter  
+- Giga Drain  
+- Hypnosis  
+
+Sudowoodo @ Hard Stone  
+Ability: Sturdy  
+Level: 12  
+Adamant Nature  
+- Rock Tomb  
+- Thunder Punch  
+- Ice Punch  
+- Iron Defense  
+
+Drednaw @ Hard Stone  
+Ability: Strong Jaw  
+Level: 14  
+Adamant Nature  
+- Waterfall  
+- Rock Tomb  
+- Bite  
+- Ice Fang  
 
 === TRAINER_TOMMY ===
 Name: TOMMY
@@ -6172,15 +6287,53 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Geodude
-Level: 8
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+Pupitar @ Black Belt  
+Ability: Shed Skin  
+Level: 13  
+Adamant Nature  
+- Rock Tomb  
+- Aerial Ace  
+- Rock Smash  
+- Secret Power  
 
-Geodude
-Level: 8
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+Wooper @ Hard Stone  
+Ability: Water Absorb  
+Level: 13  
+Adamant Nature  
+- Liquidation  
+- Rock Tomb  
+- Ice Punch  
+- Recover  
+
+Rhyhorn @ Lum Berry  
+Ability: Lightning Rod  
+Level: 15  
+Adamant Nature  
+- Magnitude  
+- Rock Tomb  
+- Megahorn  
+- Ice Fang  
+
+Yanma @ Focus Sash  
+Ability: Speed Boost  
+Level: 11  
+Modest Nature  
+IVs: 0 Atk  
+- Air Slash  
+- Bug Buzz  
+- Ancient Power  
+- Giga Drain  
+
+Nacli @ Scope Lens  
+Ability: Purifying Salt  
+Level: 15  
+Adamant Nature  
+- Stone Edge
+- Bulldoze  
+- Body Slam
+- Recover  
 
 === TRAINER_JOEY ===
 Name: JOEY
@@ -10835,21 +10988,49 @@ Level: 22
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_MARC ===
-Name: MARC
-Class: Hiker
-Pic: Hiker
-Gender: Male
-Music: Hiker
+Name: SERAPHINE
+Class: Hex Maniac
+Pic: Hex Maniac
+Gender: Female
+Music: Suspicious
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Geodude
-Level: 8
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+Geodude-Alola @ Liechi Berry  
+Ability: Sturdy  
+Level: 15   
+Adamant Nature  
+- Dig  
+- Rock Tomb  
+- Self-Destruct  
+- Swagger  
 
-Geodude
-Level: 8
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+Purrloin @ Berry Juice  
+Ability: Prankster  
+Level: 12  
+Gentle Nature  
+- Dark Pulse  
+- Fake Out  
+- Thunder Wave  
+- Swagger  
+
+Chespin @ Miracle Seed  
+Ability: Bulletproof  
+Level: 14  
+Adamant Nature  
+- Trailblaze  
+- Aerial Ace  
+- Rock Tomb  
+- Dig  
+
+Solosis @ Hard Stone  
+Ability: Magic Guard  
+Level: 12  
+Mild Nature  
+- Psybeam  
+- Signal Beam  
+- Rock Tomb  
+- Explosion  
 
 === TRAINER_BRENDEN ===
 Name: BRENDEN
