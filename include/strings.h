@@ -523,6 +523,7 @@ extern const u8 gText_SpDef[];
 extern const u8 gText_Speed[];
 extern const u8 gText_Dash[];
 extern const u8 gText_Plus[];
+extern const u8 gText_Nickname[];
 
 //Pokédex text
 extern const u8 gText_CryOf[];
@@ -3047,5 +3048,7 @@ extern const u8 gText_PlantBerry[];
 // Map name pop-up
 extern const u8 gText_AM[];
 extern const u8 gText_PM[];
+
+extern const u8 gText_Moves_Menu[];
 
 #endif // GUARD_STRINGS_H

@@ -232,49 +232,54 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 Mugshot: Blue
 
-Ferroseed @ Leftovers  
+Ferroseed @ Eviolite  
 Ability: Iron Barbs  
-Level: 8  
-Impish Nature  
-- Stealth Rock  
-- Metal Claw  
+Level: 15  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 0 Spe
+Relaxed Nature  
+- Spikes  
+- Gyro Ball
 - Leech Seed  
 - Protect  
 
-Diglett @ Soft Sand  
+Diglett @ Life Orb  
 Ability: Arena Trap  
-Level: 8  
+Level: 15 
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe 
 Jolly Nature  
-- Stomping Tantrum  
-- Sucker Punch  
+- Earthquake
+- Rock Slide
 - Beat Up  
 - Substitute  
 
-Timburr @ Focus Sash  
-Ability: Guts  
-Level: 9  
+Timburr @ Eviolite
+Ability: Iron Fist
+Level: 15  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Adamant Nature  
-- Force Palm  
-- Mach Punch  
+- Drain Punch 
 - Knock Off  
+- Mach Punch  
 - Ice Punch  
 
-Carvanha @ Scope Lens  
+Carvanha @ Life Orb  
 Ability: Speed Boost  
-Level: 8  
+Level: 15  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Adamant Nature  
 - Flip Turn  
-- Bite  
-- Zen Headbutt  
+- Crunch  
+- Psychic Fangs  
 - Protect  
 
-Corphish @ Scope Lens  
+Corphish @ Eviolite  
 Ability: Adaptability  
-Level: 8  
-Adamant Nature  
+Level: 15  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+Jolly Nature  
 - Crabhammer  
 - Aqua Jet  
-- Fury Cutter  
+- Knock Off  
 - Dragon Dance  
 
 === TRAINER_MARCEL ===
@@ -365,61 +370,64 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 Mugshot: Blue
 
-Riolu @ Berry Juice  
+Riolu @ Damp Rock 
 Ability: Prankster  
-Level: 14  
+Level: 15  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe 
 Adamant Nature  
-- Low Sweep  
-- Bite  
-- Rain Dance  
+- Rain Dance
+- Close Combat 
+- Drain Punch 
 - Copycat  
 
-Shroodle @ Focus Sash  
-Ability: Unburden  
-Level: 14  
-Adamant Nature  
-- Poison Fang  
-- Knock Off  
-- Dig  
-- Swords Dance  
+Shroodle @ Damp Rock  
+Ability: Prankster  
+Level: 15  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe 
+Jolly Nature  
+- Rain Dance
+- Encore
+- Parting Shot  
+- Knock Off
 
 Espurr @ Magnet  
 Ability: Infiltrator  
-Level: 13  
-Modest Nature  
-IVs: 0 Atk  
-- Psybeam  
-- Dark Pulse  
-- Charge Beam  
+Level: 15  
+IVs: 16 HP / 15 Atk / 16 Def / 16 SpA / 11 SpD / 16 Spe 
+Timid Nature  
+- Psychic  
+- Hidden Power
+- Thunderbolt  
 - Substitute  
 
-Wattrel @ Berry Juice  
+Wattrel @ Eviolite 
 Ability: Volt Absorb  
 Level: 15  
+IVs: 15 HP / 0 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe 
 Timid Nature  
-IVs: 0 Atk  
-- Electroweb  
-- Air Slash  
+- Hurricane  
+- Discharge
 - Volt Switch  
 - Roost  
 
-Buizel @ Focus Sash  
+Buizel @ Berry Juice 
 Ability: Swift Swim  
-Level: 13   
-Adamant Nature  
-- Waterfall  
-- Aqua Jet  
-- Ice Fang  
-- Power-Up Punch  
+Level: 15   
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe 
+Jolly Nature  
+- Wave Crash 
+- Ice Spinner 
+- Brick Break
+- Bulk Up 
 
-Psyduck @ Focus Sash  
+Psyduck @ Eviolite  
 Ability: Swift Swim  
-Level: 14   
+Level: 15  
+IVs: 15 HP / 0 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe 
 Modest Nature  
-IVs: 0 Atk  
-- Muddy Water  
+- Surf
 - Ice Beam  
-- Psybeam  
+- Psychic  
 - Nasty Plot  
 
 === TRAINER_GRUNT_WEATHER_INST_1 ===
@@ -2218,30 +2226,32 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Natu @ Twisted Spoon  
+Natu @ Life Orb 
 Ability: Magic Bounce  
-Level: 8  
-Hasty Nature  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+Naive Nature  
 - Psychic  
 - Heat Wave  
-- Ominous Wind  
+- Shadow Ball
 - Sucker Punch  
 
 Mudbray @ Berry Juice  
 Ability: Stamina  
-Level: 8  
-Adamant Nature  
-- Bulldoze  
-- Low Sweep  
-- Iron Head  
-- Rock Tomb  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+Jolly Nature  
+- Earthquake  
+- High Horsepower  
+- Close Combat  
+- Heavy Slam  
 
-Foongus @ Berry Juice  
+Foongus @ Eviolite
 Ability: Regenerator  
-Level: 7  
-Modest Nature  
-IVs: 0 Atk  
-- Mega Drain  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+Bold Nature  
+- Giga Drain  
 - Sludge Bomb  
 - Spore  
 - Synthesis  
@@ -2647,33 +2657,35 @@ Music: Rich
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Gastly @ Focus Sash  
+Gastly @ Life Orb 
 Ability: Levitate  
-Level: 8  
+Level: 12  
+IVs: 5 HP / 0 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Timid Nature  
-IVs: 0 Atk  
-- Ominous Wind  
-- Acid Spray  
-- Dazzling Gleam  
-- Will-O-Wisp  
+- Sludge Bomb  
+- Shadow Ball  
+- Thunderbolt 
+- Psychic 
 
-Pawniard @ Leftovers  
-Ability: Inner Focus  
-Level: 8   
+Pawniard @ Eviolite  
+Ability: Defiant 
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Adamant Nature  
-- Knock Off  
-- Metal Claw  
-- Sucker Punch  
+- Sucker Punch 
+- Iron Head 
+- Night Slash
 - Swords Dance  
 
-Meowth @ Focus Sash  
+Meowth @ Life Orb  
 Ability: Technician  
-Level: 8  
-Jolly Nature  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+Adamant Nature  
 - Fake Out  
-- Pay Day  
+- Feint  
 - U-turn  
-- Play Rough  
+- Knock Off 
 
 === TRAINER_MOLLIE ===
 Name: MOLLIE
@@ -4942,60 +4954,64 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 Mugshot: Purple
 
-Shuckle @ Berry Juice  
+Steelix @ Berry Juice  
 Ability: Sturdy  
 Level: 15  
-Calm Nature  
-IVs: 0 Atk  
-- Final Gambit  
-- Stealth Rock  
-- Encore  
-- Sticky Web  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe 
+Careful Nature  
+- Earthquake
+- Heavy Slam 
+- Iron Head  
+- Stealth Rock 
 
-Tirtouga @ Lum Berry  
-Ability: Solid Rock  
-Level: 14   
-Adamant Nature  
-- Liquidation  
-- Stone Edge  
-- Bulldoze  
-- Zen Headbutt  
+Ferroseed @ Eviolite
+Ability: Iron Barbs  
+Level: 15   
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe 
+Relaxed Nature  
+- Knock Off  
+- Giga Drain 
+- Thunder Wave  
+- Stealth Rock 
 
-Naclstack @ Berry Juice  
+Naclstack @ Eviolite  
 Ability: Purifying Salt  
-Level: 14  
+Level: 15 
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe 
 Careful Nature  
 - Salt Cure  
 - Body Press  
 - Iron Defense  
 - Recover  
 
-Nosepass @ Berry Juice  
+Tirtouga @ Berry Juice
 Ability: Sturdy  
-Level: 14   
-Adamant Nature  
-- Rock Blast  
-- Attract  
-- Thunder Wave  
-- Self-Destruct  
-
-Lunatone @ Hard Stone  
-Ability: Levitate  
-Level: 14  
-Modest Nature  
-IVs: 0 Atk  
-- Psychic  
-- Ancient Power  
-- Earth Power  
-- Rock Polish  
-
-Drednaw @ Focus Sash  
-Ability: Strong Jaw  
 Level: 15  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe 
 Adamant Nature  
-- Waterfall  
-- Rock Slide  
-- Bite  
+- Liquidation  
+- Aqua Jet  
+- Zen Headbutt  
+- Shell Smash
+
+Mawile @ Life Orb 
+Ability: Sheer Force  
+Level: 15  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe 
+Adamant Nature  
+- Iron Head  
+- Play Rough
+- Knock Off 
+- Thunder Punch  
+
+Drednaw @ Air Balloon  
+Ability: Swift Swim 
+Level: 15  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe 
+Jolly Nature  
+- Stone Edge  
+- Liquidation 
+- Earthquake  
 - Shell Smash  
 
 === TRAINER_BRAWLY_1 ===
@@ -5311,32 +5327,33 @@ AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
 Vulpix @ Berry Juice  
 Ability: Drought  
-Level: 10  
-Hasty Nature  
-- Mystical Fire  
-- Energy Ball  
-- Flame Charge  
-- Hypnosis  
+Level: 12  
+IVs: 5 HP / 0 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
+Timid Nature  
+- Weather Ball 
+- Overheat  
+- Energy Ball
+- Fire Blast  
 
-Bellsprout @ Miracle Seed
+Bellsprout @ Life Orb
 Ability: Chlorophyll  
-Level: 9  
+Level: 12  
+IVs: 5 HP / 0 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
 Modest Nature  
-IVs: 1 Atk / 30 Def / 30 SpD / 30 Spe  
-- Giga Drain 
-- Sludge Bomb  
-- Hidden Power
+- Weather Ball 
+- Solar Beam  
+- Sludge Bomb
 - Sleep Powder  
 
 Charmander @ Focus Sash  
 Ability: Solar Power  
-Level: 10  
-Modest Nature  
-IVs: 0 Atk / 30 SpA  
-- Flamethrower  
-- Focus Blast  
-- Hidden Power
-- Sleep Talk  
+Level: 12  
+IVs: 5 HP / 0 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
+Modest Nature   
+- Weather Ball  
+- Flamethrower 
+- Dragon Pulse
+- Overheat 
 
 === TRAINER_TED ===
 Name: TED
@@ -5453,33 +5470,35 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Snivy @ Berry Juice  
-Ability: Overgrow  
-Level: 9  
-Mild Nature  
-- Leaf Tornado  
-- Knock Off  
+Snivy @ Eviolite 
+Ability: Contrary  
+Level: 12  
+IVs: 5 HP / 6 Atk / 6 Def / 5 SpA / 2 SpD / 6 Spe 
+Timid Nature  
+- Leaf Storm  
 - Hidden Power 
+- Synthesis
 - Glare  
 
-Staryu @ Scope Lens  
+Staryu @ Eviolite
 Ability: Analytic  
-Level: 9    
+Level: 12    
+IVs: 5 HP / 0 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
 Timid Nature  
-IVs: 0 Atk  
-- Water Pulse  
+- Hydro Pump 
 - Thunderbolt  
 - Ice Beam  
 - Recover  
 
-Torchic @ Soft Sand  
+Torchic @ Berry Juice  
 Ability: Speed Boost  
-Level: 9  
-Modest Nature  
-- Flamethrower  
-- Hidden Power
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
+Adamant Nature  
+- Flare Blitz 
+- Rock Slide
 - Protect  
-- Substitute  
+- Swords Dance  
 
 === TRAINER_GEORGIA ===
 Name: GEORGIA
@@ -6176,30 +6195,33 @@ AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
 Poochyena  
 Ability: Rattled  
-Level: 6  
+Level: 12
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe  
 Jolly Nature  
-- Bite  
+- Crunch  
 - Play Rough  
 - Fire Fang  
 - Howl  
 
 Snubbull  
 Ability: Intimidate  
-Level: 6  
+Level: 12
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
 Adamant Nature  
 - Play Rough  
-- Psychic Fangs  
-- Bulldoze  
+- Close Combat 
+- Fire Punch  
 - Thunder Wave  
 
 Stunky  
-Ability: Stench  
-Level: 6  
+Ability: Aftermath  
+Level: 12
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe  
 Jolly Nature  
-- Poison Tail  
-- Night Slash  
-- Sucker Punch  
-- Temper Flare  
+- Sucker Punch 
+- Gunk Shot  
+- Knock Off 
+- Play Rough  
 
 === TRAINER_BILLY ===
 Name: TERRY
@@ -6210,32 +6232,35 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Vullaby @ Berry Juice  
+Vullaby @ Eviolite 
 Ability: Weak Armor  
-Level: 7  
-Impish Nature  
-- Pluck  
-- Lash Out  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+Jolly Nature  
+- Brave Bird  
+- Knock Off  
 - U-turn  
 - Roost  
 
 Archen @ Berry Juice  
 Ability: Defeatist  
-Level: 7  
-Naive Nature  
-- Rock Tomb  
-- Bounce  
-- Bulldoze  
-- Heat Wave  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+Jolly Nature  
+- Acrobatics  
+- Earthquake  
+- U-turn  
+- Stone Edge  
 
-Doduo @ Sharp Beak  
+Doduo @ Berry Juice  
 Ability: Early Bird  
-Level: 7   
-Naive Nature  
-- Pluck  
-- Quick Attack  
+Level: 12   
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+Jolly Nature  
+- Brave Bird 
+- Jump Kick 
 - Knock Off  
-- Hidden Power  
+- Quick Attack
 
 === TRAINER_JOSH ===
 Name: JOSH
@@ -6246,39 +6271,45 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Geodude-Alola @ Choice Band  
-Ability: Sturdy  
-Level: 15  
+Geodude-Alola @ Eviolite 
+Ability: Galvanize  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Adamant Nature  
-- Self-Destruct  
+- Explosion
+- Earthquake
+- Double Edge
+- Stealth Rock
 
 Yanma @ Focus Sash  
 Ability: Compound Eyes  
-Level: 11   
+Level: 12   
+IVs: 5 HP / 0 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Timid Nature  
-IVs: 0 Atk  
 - Silver Wind  
 - Air Cutter  
 - Giga Drain  
 - Hypnosis  
 
-Sudowoodo @ Hard Stone  
-Ability: Sturdy  
+Sudowoodo @ Life Orb 
+Ability: Rock Head  
 Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Adamant Nature  
-- Rock Tomb  
-- Thunder Punch  
-- Ice Punch  
-- Iron Defense  
+- Head Smash  
+- Wood Hammer
+- Sucker Punch
+- Stealth Rock
 
-Drednaw @ Hard Stone  
+Drednaw @ White Herb 
 Ability: Strong Jaw  
-Level: 14  
-Adamant Nature  
-- Waterfall  
-- Rock Tomb  
-- Bite  
-- Ice Fang  
+Level: 12 
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+Jolly Nature  
+- Liquidation  
+- Stone Edge  
+- Crunch  
+- Shell Smash  
 
 === TRAINER_TOMMY ===
 Name: TOMMY
@@ -6289,38 +6320,41 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Pupitar @ Black Belt  
+Pupitar @ Eviolite 
 Ability: Shed Skin  
-Level: 13  
+Level: 12
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Adamant Nature  
-- Rock Tomb  
-- Aerial Ace  
-- Rock Smash  
-- Secret Power  
+- Earthquake
+- Stone Edge  
+- Dragon Dance 
+- Rest
 
-Wooper @ Hard Stone  
-Ability: Water Absorb  
-Level: 13  
-Adamant Nature  
-- Liquidation  
-- Rock Tomb  
-- Ice Punch  
+Wooper @ Eviolite  
+Ability: Unaware
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+Relaxed Nature  
+- Hydro Pump  
+- Earthquake
+- Earth Power
 - Recover  
 
-Rhyhorn @ Lum Berry  
+Rhyhorn @ Eviolite
 Ability: Lightning Rod  
-Level: 15  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Adamant Nature  
-- Magnitude  
-- Rock Tomb  
+- Earthquake  
+- Rock Blast
 - Megahorn  
-- Ice Fang  
+- Stealth Rock  
 
 Yanma @ Focus Sash  
 Ability: Speed Boost  
-Level: 11  
+Level: 12  
+IVs: 5 HP / 0 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Modest Nature  
-IVs: 0 Atk  
 - Air Slash  
 - Bug Buzz  
 - Ancient Power  
@@ -6328,7 +6362,8 @@ IVs: 0 Atk
 
 Nacli @ Scope Lens  
 Ability: Purifying Salt  
-Level: 15  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Adamant Nature  
 - Stone Edge
 - Bulldoze  
@@ -6344,41 +6379,44 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Minccino @ Black Glasses  
+Minccino @ Life Orb  
 Ability: Skill Link  
-Level: 10  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
 Jolly Nature  
-- Double Slap  
-- Knock Off  
+- Tail Slap 
+- Triple Axel  
 - U-turn  
-- Tidy Up  
+- Knock Off 
 
-Trapinch @ Berry Juice  
+Trapinch @ Eviolite
 Ability: Arena Trap  
-Level: 10  
-Adamant Nature  
-- Bulldoze  
-- Rock Tomb  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
+Jolly Nature  
+- Earthquake  
+- Stone Edge
+- Crunch
 - First Impression  
-- Bug Bite  
 
-Voltorb-Hisui @ Berry Juice  
+Voltorb-Hisui @ Eviolite 
 Ability: Static  
-Level: 10  
+Level: 12  
+IVs: 6 HP / 5 Atk / 6 Def / 6 SpA / 1 SpD / 6 Spe 
 Timid Nature  
-IVs: 0 Atk  
 - Volt Switch  
 - Giga Drain  
-- Electro Ball  
-- Thunder Wave  
+- Thunderbolt  
+- Hidden Power
 
-Growlithe-Hisui @ Focus Sash  
-Ability: Intimidate  
-Level: 10   
-Adamant Nature  
-- Rock Tomb  
-- Flame Wheel  
-- Thunder Fang  
+Growlithe-Hisui @ Eviolite
+Ability: Rock Head 
+Level: 12   
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
+Jolly Nature  
+- Head Smash
+- Flare Blitz
+- Psychic Fangs 
 - Will-O-Wisp  
 
 === TRAINER_BEN ===
@@ -6582,38 +6620,41 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Toedscool @ Berry Juice  
+Toedscool @ Eviolite  
 Ability: Mycelium Might  
-Level: 7  
+Level: 12
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe   
 Timid Nature  
-- Mud Shot  
-- Mega Drain  
-- Knock Off  
+- Earth Power  
+- Knock Off 
+- Spore 
 
 Gothita @ Berry Juice  
 Ability: Shadow Tag  
-Level: 7  
+Level: 12  
+IVs: 5 HP / 0 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
 Modest Nature  
-IVs: 0 Atk  
-- Psybeam  
+- Psychic 
 - Thunderbolt  
 - Energy Ball  
 
-Zorua @ Berry Juice  
+Zorua @ Eviolite  
 Ability: Illusion  
-Level: 7  
-Naive Nature  
+Level: 12
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe  
+Jolly Nature  
 - Knock Off  
 - Sucker Punch  
 - U-turn  
 
 Mankey @ Berry Juice  
-Ability: Defiant  
-Level: 5   
+Ability: Vital Spirit  
+Level: 12
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe    
 Jolly Nature  
-- Low Sweep  
-- Ice Punch  
-- U-turn  
+- Close Combat  
+- Gunk Shot  
+- Assurance  
 
 === TRAINER_TIMMY ===
 Name: TIMMY
@@ -6720,27 +6761,30 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Finneon @ Mystic Water  
-Ability: Swift Swim  
-Level: 9  
-Modest Nature  
-- Water Pulse  
-- Icy Wind  
-- U-turn  
-- Rain Dance  
+Finneon @ Berry Juice 
+Ability: Storm Drain 
+Level: 12  
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 0 SpD / 6 Spe 
+Bold Nature  
+- Hydro Pump
+- U-turn   
+- Hidden Power
+- Rain Dance
 
-Barboach @ Sharp Beak  
-Ability: Hydration  
-Level: 9  
+Barboach @ Eviolite  
+Ability: Oblivious  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
 Adamant Nature  
+- Earthquake  
 - Waterfall  
-- Bulldoze  
 - Bounce  
 - Dragon Dance  
 
 Tynamo @ Scope Lens  
 Ability: Levitate  
-Level: 9  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
 Adamant Nature  
 - Spark  
 - Knock Off  
@@ -6749,20 +6793,21 @@ Adamant Nature
 
 Remoraid @ Scope Lens  
 Ability: Sniper  
-Level: 9  
-Modest Nature  
-IVs: 0 Atk / 30 SpA  
-- Water Pulse  
-- Hidden Power
-- Incinerate  
-- Icy Wind  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
+Naive Nature  
+- Water Spout 
+- Hydro Pump
+- Fire Blast
+- Bullet Seed 
 
-Goldeen @ Sharp Beak  
-Ability: Swift Swim  
-Level: 9  
-Adamant Nature  
+Goldeen @ Life Orb  
+Ability: Lightning Rod 
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
+Jolly Nature  
 - Waterfall  
-- Bounce  
+- Poison Jab  
 - Drill Run  
 - Knock Off  
 
@@ -9233,21 +9278,22 @@ AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
 Illumise @ Focus Sash  
 Ability: Tinted Lens  
-Level: 8  
+Level: 12  
+IVs: 6 HP / 6 Atk / 6 Def / 5 SpA / 2 SpD / 5 Spe 
 Timid Nature  
-- Struggle Bug  
-- Charge Beam  
+- Bug Buzz 
+- Thunderbolt
+- Dazzling Gleam
 - Hidden Power
-- Growth 
 
 Volbeat @ Berry Juice  
 Ability: Prankster  
-Level: 8  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
 Calm Nature  
-IVs: 0 Atk  
-- Light Screen  
-- Charm  
-- Moonlight  
+- Encore
+- Roost  
+- Thunder Wave  
 - Helping Hand  
 
 === TRAINER_MIU_AND_YUKI ===
@@ -10996,41 +11042,45 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Geodude-Alola @ Liechi Berry  
-Ability: Sturdy  
-Level: 15   
+Geodude-Alola @ Eviolite  
+Ability: Magnet Pull  
+Level: 12   
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Adamant Nature  
-- Dig  
-- Rock Tomb  
-- Self-Destruct  
-- Swagger  
+- Rock Blast
+- Fire Punch
+- Superpower
+- Stealth Rock 
 
-Purrloin @ Berry Juice  
+Purrloin @ Eviolite
 Ability: Prankster  
 Level: 12  
-Gentle Nature  
-- Dark Pulse  
-- Fake Out  
-- Thunder Wave  
-- Swagger  
-
-Chespin @ Miracle Seed  
-Ability: Bulletproof  
-Level: 14  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Adamant Nature  
-- Trailblaze  
-- Aerial Ace  
-- Rock Tomb  
-- Dig  
+- Thunder Wave 
+- Knock Off  
+- Encore 
+- U-turn  
 
-Solosis @ Hard Stone  
+Chespin @ Salac Berry 
+Ability: Bulletproof  
+Level: 12 
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+Jolly Nature  
+- Drain Punch  
+- Rock Slide  
+- Substitute
+- Belly Drum
+
+Solosis @ Eviolite
 Ability: Magic Guard  
 Level: 12  
-Mild Nature  
-- Psybeam  
-- Signal Beam  
-- Rock Tomb  
-- Explosion  
+IVs: 5 HP / 0 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+Modest Nature  
+- Psychic  
+- Shadow Ball 
+- Energy Ball 
+- Calm Mind  
 
 === TRAINER_BRENDEN ===
 Name: BRENDEN
@@ -11517,33 +11567,35 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Cottonee @ Berry Juice  
+Cottonee @ Eviolite  
 Ability: Prankster  
-Level: 6  
+Level: 12 
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
 Timid Nature  
-IVs: 0 Atk  
-- Mega Drain  
-- Fairy Wind  
-- Stun Spore  
+- Dazzling Gleam  
+- Knock Off  
+- Encore  
 - Memento  
 
-Mienfoo @ Berry Juice  
+Mienfoo @ Eviolite  
 Ability: Regenerator  
-Level: 6  
-Jolly Nature  
-- Force Palm  
-- Reversal  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
+Impish Nature  
+- Fake Out  
+- High Jump Kick  
 - Knock Off  
 - U-turn  
 
-Grookey @ Berry Juice  
+Grookey @ Eviolite  
 Ability: Overgrow  
-Level: 5  
-Jolly Nature  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
+Adamant Nature  
 - Razor Leaf  
-- Acrobatics  
-- Drain Punch  
-- Swords Dance  
+- Knock Off  
+- U-turn
+- Drain Punch
 
 === TRAINER_HALEY_1 ===
 Name: HALEY
@@ -11554,32 +11606,34 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Spritzee @ Berry Juice  
+Spritzee @ Eviolite 
 Ability: Aroma Veil  
-Level: 9  
-Calm Nature  
-IVs: 0 Atk  
+Level: 12  
+IVs: 5 HP / 0 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
+Quiet Nature  
 - Moonblast  
 - Psychic  
 - Wish  
 - Protect  
 
-Bunnelby @ Focus Sash  
+Bunnelby @ Eviolite  
 Ability: Huge Power  
-Level: 9  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
 Adamant Nature  
-- Secret Power  
-- Bulldoze  
+- Strength  
+- Earthquake  
 - Quick Attack  
-- Rock Tomb  
+- Stone Edge 
 
 Azurill @ Berry Juice  
 Ability: Huge Power  
-Level: 9  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
 Adamant Nature  
-- Secret Power  
+- Facade
 - Aqua Jet  
-- Bounce
+- Body Slam
 - Belly Drum
 
 === TRAINER_JANICE ===
@@ -11593,7 +11647,8 @@ AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
 Sprigatito @ Focus Sash  
 Ability: Protean  
-Level: 10  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
 Adamant Nature  
 - Trailblaze  
 - U-turn  
@@ -11602,20 +11657,22 @@ Adamant Nature
 
 Fletchling @ Berry Juice  
 Ability: Gale Wings  
-Level: 10  
-Naive Nature  
-- Acrobatics  
-- Flame Charge  
-- Hidden Power 
-- Swords Dance  
-
-Tinkatink @ Berry Juice  
-Ability: Pickpocket  
-Level: 9  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
 Adamant Nature  
-- Play Rough  
-- Metal Claw  
+- Acrobatics  
+- U-turn  
+- Dual Wingbeat 
+- Flame Charge  
+
+Tinkatink @ Eviolite 
+Ability: Pickpocket  
+Level: 12 
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
+Bold Nature  
+- Draining Kiss   
 - Knock Off  
+- Flash Cannon
 - Thunder Wave  
 
 === TRAINER_VIVI ===
@@ -11784,37 +11841,40 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Venipede @ Berry Juice  
+Venipede @ Eviolite
 Ability: Speed Boost  
-Level: 5  
+Level: 12
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe  
 Careful Nature  
 - Pin Missile  
 - Endeavor  
 - Protect  
 
-Caterpie @ Berry Juice  
-Ability: Shield Dust  
-Level: 5  
-Naughty Nature  
-- Bug Bite  
-- Electroweb  
-- String Shot  
+Butterfree @ Berry Juice  
+Ability: Compound Eyes 
+Level: 12
+IVs: 5 HP / 0 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe  
+Timid Nature  
+- Pollen Puff  
+- Hurricane  
+- Sleep Powder  
 
-Sewaddle @ Berry Juice  
-Ability: Swarm  
-Level: 5  
-Modest Nature  
-IVs: 1 Atk / 30 Def / 30 SpD / 30 Spe  
-- Struggle Bug  
-- Giga Drain  
-- Hidden Power
+Sewaddle @ Eviolite 
+Ability: Chlorophyll  
+Level: 12
+IVs: 6 HP / 5 Atk / 6 Def / 6 SpA / 1 SpD / 6 Spe  
+Bold Nature
+- Energy Ball 
+- Hidden Power 
+- Air Slash
 
-Nymble @ Silver Powder  
+Nymble @ Life Orb 
 Ability: Tinted Lens  
-Level: 5  
+Level: 12
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe  
 Adamant Nature  
 - First Impression  
-- Pounce  
+- U-turn  
 - Sucker Punch 
 
 === TRAINER_LYLE ===
@@ -11828,27 +11888,30 @@ AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
 Surskit @ Focus Sash  
 Ability: Swift Swim  
-Level: 8  
-Mild Nature  
-- Water Pulse  
+Level: 12 
+IVs: 5 HP / 0 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe  
+Timid Nature  
+- Hydro Pump  
 - Icy Wind  
 - Giga Drain  
-- Aqua Jet  
+- Sticky Web  
 
-Kricketot @ Focus Sash  
-Ability: Shed Skin  
-Level: 8  
+Kricketune @ Focus Sash  
+Ability: Technician  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe  
 Jolly Nature  
-- Endeavor  
-- String Shot  
-- Bug Bite  
-- Growl  
+- Pounce  
+- Fell Stinger 
+- Taunt
+- Sticky Web 
 
-Larvesta @ Focus Sash  
+Larvesta @ Eviolite 
 Ability: Flame Body  
-Level: 8  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe  
 Impish Nature  
-- Flame Wheel  
+- Flare Blitz  
 - U-turn  
 - Will-O-Wisp  
 - Morning Sun  
@@ -11864,38 +11927,40 @@ AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
 Spinarak @ Focus Sash  
 Ability: Insomnia  
-Level: 10  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
 Adamant Nature  
-- Pounce  
-- Cross Poison  
-- Dig  
-- Bounce  
+- Megahorn  
+- Poison Jab  
+- Sticky Web
+- Toxic Spikes  
 
-Joltik @ Silver Powder  
-Ability: Swarm  
-Level: 10  
-Modest Nature  
-IVs: 0 Atk  
+Joltik @ Eviolite 
+Ability: Compound Eyes  
+Level: 12 
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
+Adamant Nature  
+- Bug Buzz  
+- Giga Drain
 - Volt Switch  
-- Charge Beam  
-- Struggle Bug  
-- Energy Ball  
+- Sucker Punch 
 
-Paras @ Berry Juice  
-Ability: Effect Spore  
-Level: 10  
+Paras @ Eviolite  
+Ability: Dry Skin
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
 Adamant Nature  
-- Bullet Seed  
-- Bug Bite  
+- Seed Bomb
+- Leech Life 
 - Knock Off  
 - Spore  
 
 Beautifly @ Silver Powder  
 Ability: Swarm  
-Level: 10 
-Bold Nature  
-IVs: 1 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe  
-- Silver Wind  
+Level: 12 
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 0 SpD / 6 Spe 
+Timid Nature   
+- Bug Buzz
 - Hidden Power  
 - Quiver Dance  
 - Roost  
@@ -11956,32 +12021,34 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Dewpider @ Mystic Water  
+Dewpider @ Eviolite 
 Ability: Water Bubble  
-Level: 9  
-Lonely Nature  
-- Bubble Beam  
-- Pounce  
-- Icy Wind  
-- Bite  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe  
+Modest Nature  
+- Giga Drain  
+- Bug Buzz  
+- Liquidation 
+- Leech Life  
 
-Blipbug @ Focus Sash  
+Dottler @ Focus Sash  
 Ability: Swarm  
-Level: 8  
-Calm Nature
-IVs: 0 Atk  
-- Struggle Bug  
-- Infestation  
-- Supersonic  
-- Recover  
+Level: 12  
+IVs: 5 HP / 0 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe  
+Modest Nature 
+- Bug Buzz  
+- Psychic
+- Energy Ball  
+- Shadow Ball  
 
 Dwebble @ Berry Juice  
 Ability: Sturdy  
-Level: 9  
+Level: 12 
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe  
 Adamant Nature  
-- Rock Tomb  
-- Bulldoze  
-- Night Slash  
+- Rock Blast 
+- Earthquake  
+- Knock Off  
 - Shell Smash  
 
 === TRAINER_JAMES_2 ===
@@ -12162,33 +12229,35 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Nosepass @ Berry Juice  
+Nosepass @ Eviolite 
 Ability: Sturdy  
-Level: 10  
-Modest Nature  
-IVs: 0 Atk / 30 Def  
-- Ancient Power  
+Level: 12 
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
+Impish Nature
+- Body Press 
 - Volt Switch  
-- Hidden Power
-- Thunder Wave  
+- Stealth Rock
+- Iron Defense 
 
-Rhyhorn @ Scope Lens  
-Ability: Lightning Rod  
-Level: 10  
-Adamant Nature  
-- Bulldoze  
-- Rock Tomb  
-- Swords Dance  
-- Rock Polish  
+Rhyhorn @ Eviolite
+Ability: Rock Head
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
+Careful Nature  
+- Rock Blast  
+- Earthquake  
+- Megahorn 
+- Stealth Rock 
 
-Phanpy @ Focus Sash  
+Phanpy @ Eviolite  
 Ability: Pickup  
-Level: 10    
-Adamant Nature  
-- Bulldoze  
+Level: 12    
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
+Careful Nature  
+- Earthquake  
 - Knock Off  
 - Ice Shard  
-- Iron Tail  
+- Roar 
 
 === TRAINER_ERIC ===
 Name: ERIC
@@ -13578,32 +13647,34 @@ Music: Rich
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Wingull @ Berry Juice  
-Ability: Keen Eye  
-Level: 10  
-Hasty Nature  
-- Muddy Water  
-- Air Cutter  
-- Knock Off  
-- Roost  
+Wingull @ Life Orb 
+Ability: Hydration  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
+Timid Nature  
+- Hurricane 
+- Surf  
+- Ice Beam  
+- U-turn  
 
 Ponyta @ Berry Juice  
-Ability: Flame Body  
-Level: 10  
+Ability: Flash Fire 
+Level: 12 
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
 Jolly Nature  
-- Flame Wheel  
+- Flare Blitz 
 - Wild Charge  
 - High Horsepower  
-- Bounce  
+- Flame Charge  
 
-Magnemite @ Leftovers  
-Ability: Analytic  
-Level: 9  
+Magnemite @ Eviolite  
+Ability: Magnet Pull  
+Level: 12  
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 0 SpD / 6 Spe 
 Modest Nature  
-IVs: 0 Atk / 30 Def  
 - Volt Switch  
-- Mirror Shot  
-- Charge Beam  
+- Flash Cannon
+- Thunderbolt  
 - Hidden Power  
 
 === TRAINER_SARAH ===
@@ -13615,30 +13686,32 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Abra @ Focus Sash  
+Abra @ Life Orb 
 Ability: Magic Guard  
-Level: 10  
-Timid Nature  
-IVs: 0 Atk  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
+Hasty Nature 
 - Psychic  
 - Shadow Ball  
-- Thunder Wave 
-- Counter  
+- Drain Punch
+- Substitute  
 
-Tirtouga @ Scope Lens  
+Tirtouga @ Eviolite
 Ability: Solid Rock  
-Level: 10   
-Adamant Nature  
-- Waterfall  
-- Rock Slide  
-- Zen Headbutt  
-- Shell Smash  
+Level: 12   
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
+Careful Nature  
+- Stone Edge
+- Liquidation 
+- Aqua Jet
+- Stealth Rock
 
-Deerling @ Berry Juice  
+Deerling @ Eviolite
 Ability: Serene Grace  
-Level: 10  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
 Jolly Nature  
-- Secret Power  
+- Headbutt
 - Zen Headbutt  
 - Thunder Wave  
 - Synthesis  
@@ -13654,34 +13727,37 @@ AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
 Magikarp @ Choice Band  
 Ability: Rattled  
-Level: 9   
+Level: 12   
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Adamant Nature  
 - Bounce  
 
-Mareanie @ Berry Juice  
+Mareanie @ Eviolite
 Ability: Regenerator  
-Level: 8  
-Modest Nature  
-IVs: 0 Atk  
-- Acid Spray  
-- Muddy Water  
-- Icy Wind  
+Level: 12
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe  
+Bold Nature   
+- Hydro Pump
+- Sludge Bomb 
+- Knock Off
 - Recover  
 
-Chinchou @ Berry Juice  
+Chinchou @ Eviolite 
 Ability: Volt Absorb  
-Level: 7  
-Modest Nature  
-- Muddy Water  
-- Electroweb  
-- Icy Wind  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+Timid Nature  
+- Scald  
+- Thunderbolt  
+- Ice Beam  
 - Flip Turn  
 
-Shellder @ Focus Sash  
+Shellder @ Eviolite
 Ability: Skill Link  
-Level: 7  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Adamant Nature 
-- Waterfall  
+- Liquidation 
 - Icicle Spear  
 - Rock Blast  
 - Shell Smash  
@@ -14567,30 +14643,33 @@ AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
 Geodude @ Berry Juice  
 Ability: Sturdy  
-Level: 10  
+Level: 12 
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
 Adamant Nature  
-- Rock Tomb  
-- Stomping Tantrum  
+- Rock Blast  
+- Earthquake
 - Sucker Punch  
-- Counter  
+- Explosion
 
-Roggenrola @ Berry Juice  
+Roggenrola @ Eviolite
 Ability: Weak Armor  
-Level: 9  
-Adamant Nature  
-- Rock Tomb  
-- Bulldoze  
-- Rock Smash  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
+Jolly Nature  
+- Rock Blast  
+- Earthquake  
+- Stealth Rock 
 - Explosion  
 
-Onix @ Berry Juice  
-Ability: Sturdy  
-Level: 9  
+Onix @ Eviolite
+Ability: Rock Head  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
 Jolly Nature  
-- Bulldoze  
-- Rock Tomb  
-- Endure  
-- Self-Destruct  
+- Head Smash  
+- Earthquake  
+- Explosion  
+- Dragon Dance
 
 === TRAINER_JOHNSON ===
 Name: JOHNSON
@@ -14601,31 +14680,34 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Omniscient
 
-Hippopotas @ Berry Juice  
+Hippopotas @ Eviolite
 Ability: Sand Stream  
-Level: 9  
-Adamant Nature  
-- Bulldoze  
-- Rock Tomb  
-- Thunder Fang  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
+Impish Nature  
+- Earthquake
+- Crunch  
+- Stealth Rock
 - Slack Off  
 
-Diglett-Alola @ Metal Coat  
+Diglett-Alola @ Life Orb 
 Ability: Sand Force  
-Level: 9  
+Level: 12  
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
 Jolly Nature  
-- Bulldoze  
-- Metal Claw  
-- Rock Tomb 
+- Iron Head 
+- Earthquake
+- Rock Slide
 - Substitute  
 
-Sandshrew @ Scope Lens  
+Sandshrew @ Eviolite
 Ability: Sand Rush  
-Level: 9  
+Level: 12 
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe 
 Adamant Nature  
-- Dig  
-- Rock Slide  
-- Fury Cutter  
+- Earthquake  
+- Leech Life
+- Knock Off
 - Swords Dance
 
 === TRAINER_MELINA ===
