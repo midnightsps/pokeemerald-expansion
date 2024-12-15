@@ -5425,7 +5425,7 @@ BattleScript_FaintAttacker::
 	tryillusionoff BS_ATTACKER
 	tryactivategulpmissile
 	playfaintcry BS_ATTACKER
-	pause B_WAIT_TIME_LONG
+	pause B_WAIT_TIME_SHORT
 	dofaintanimation BS_ATTACKER
 	printstring STRINGID_ATTACKERFAINTED
 	cleareffectsonfaint BS_ATTACKER
@@ -5439,7 +5439,7 @@ BattleScript_FaintTarget::
 	tryactivategulpmissile
 	tryupdateleaderscresttracker
 	playfaintcry BS_TARGET
-	pause B_WAIT_TIME_LONG
+	pause B_WAIT_TIME_SHORT
 	dofaintanimation BS_TARGET
 	printstring STRINGID_TARGETFAINTED
 	cleareffectsonfaint BS_TARGET
@@ -6956,14 +6956,14 @@ BattleScript_MegaEvolution::
 	trytrainerslidemegaevolutionmsg
 	printstring STRINGID_MEGAEVOREACTING
 BattleScript_MegaEvolutionAfterString:
-	waitmessage B_WAIT_TIME_LONG
+	waitmessage B_WAIT_TIME_SHORT
 	setbyte gIsCriticalHit, 0
 	handlemegaevo BS_SCRIPTING, 0
 	playanimation BS_SCRIPTING, B_ANIM_MEGA_EVOLUTION
 	waitanimation
 	handlemegaevo BS_SCRIPTING, 1
 	printstring STRINGID_MEGAEVOEVOLVED
-	waitmessage B_WAIT_TIME_LONG
+	waitmessage B_WAIT_TIME_SHORT
 	switchinabilities BS_SCRIPTING
 	end3
 
