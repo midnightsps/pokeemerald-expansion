@@ -4351,7 +4351,7 @@ void TryChangeDeoxysForm(void)
      || baseSpecies == SPECIES_DEOXYS_DEFENSE
      || baseSpecies == SPECIES_DEOXYS_SPEED)
     {
-        struct MapPosition position;
+        // struct MapPosition position;
         extern struct MapPosition gPlayerFacingPosition;
         GetXYCoordsOneStepInFrontOfPlayer(&gPlayerFacingPosition.x, &gPlayerFacingPosition.y);
         metatileBehavior = MapGridGetMetatileBehaviorAt(gPlayerFacingPosition.x, gPlayerFacingPosition.y);
