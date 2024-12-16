@@ -133,9 +133,9 @@ static bool32 Fishing_ShowDots(struct Task *);
 static bool32 Fishing_CheckForBite(struct Task *);
 static bool32 Fishing_GotBite(struct Task *);
 static bool32 Fishing_ChangeMinigame(struct Task *);
-static bool32 Fishing_WaitForA(struct Task *);
+// static bool32 Fishing_WaitForA(struct Task *);
 static bool32 Fishing_APressNoMinigame(struct Task *);
-static bool32 Fishing_CheckMoreDots(struct Task *);
+// static bool32 Fishing_CheckMoreDots(struct Task *);
 static bool32 Fishing_MonOnHook(struct Task *);
 static bool32 Fishing_StartEncounter(struct Task *);
 static bool32 Fishing_NotEvenNibble(struct Task *);
@@ -1773,9 +1773,9 @@ static bool32 (*const sFishingStateFuncs[])(struct Task *) =
     [FISHING_CHECK_FOR_BITE]        = Fishing_CheckForBite,
     [FISHING_GOT_BITE]              = Fishing_GotBite,
     [FISHING_CHANGE_MINIGAME]       = Fishing_ChangeMinigame,
-    [FISHING_WAIT_FOR_A]            = Fishing_WaitForA,
+    // [FISHING_WAIT_FOR_A]            = Fishing_WaitForA,
     [FISHING_A_PRESS_NO_MINIGAME]   = Fishing_APressNoMinigame,
-    [FISHING_CHECK_MORE_DOTS]       = Fishing_CheckMoreDots,
+    // [FISHING_CHECK_MORE_DOTS]       = Fishing_CheckMoreDots,
     [FISHING_MON_ON_HOOK]           = Fishing_MonOnHook,
     [FISHING_START_ENCOUNTER]       = Fishing_StartEncounter,
     [FISHING_NOT_EVEN_NIBBLE]       = Fishing_NotEvenNibble,
@@ -1872,10 +1872,8 @@ static bool32 Fishing_ShowDots(struct Task *task)
         if (!DoesFishingMinigameAllowCancel())
             return FALSE;
 
-        task->tStep = FISHING_NOT_EVEN_NIBBLE;
-        if (task->tRoundsPlayed != 0)
-            task->tStep = FISHING_GOT_AWAY;
-        return TRUE;
+        task->tStep = FISHING_GOT_BITE;
+        return FALSE;
     }
     else
     {
@@ -1884,7 +1882,7 @@ static bool32 Fishing_ShowDots(struct Task *task)
             task->tFrameCounter = 0;
             if (task->tNumDots >= task->tDotsRequired)
             {
-                task->tStep = FISHING_CHECK_FOR_BITE;
+                task->tStep = FISHING_GOT_BITE;
                 if (task->tRoundsPlayed != 0)
                     task->tStep = FISHING_GOT_BITE;
                 task->tRoundsPlayed++;
@@ -1956,22 +1954,20 @@ static bool32 Fishing_ChangeMinigame(struct Task *task)
 }
 
 // We have a bite. Now, wait for the player to press A, or the timer to expire.
-static bool32 Fishing_WaitForA(struct Task *task)
-{
-    const s16 reelTimeouts[3] = {
-        [OLD_ROD]   = 36,
-        [GOOD_ROD]  = 33,
-        [SUPER_ROD] = 30
-    };
+// static bool32 Fishing_WaitForA(struct Task *task)
+// {
+//     const s16 reelTimeouts[3] = {
+//         [OLD_ROD]   = 36,
+//         [GOOD_ROD]  = 33,
+//         [SUPER_ROD] = 30
+//     };
 
-    AlignFishingAnimationFrames();
-    task->tFrameCounter++;
-    if (task->tFrameCounter >= reelTimeouts[task->tFishingRod])
-        task->tStep = FISHING_GOT_AWAY;
-    else if (JOY_NEW(A_BUTTON))
-        task->tStep = FISHING_CHECK_MORE_DOTS;
-    return FALSE;
-}
+//     AlignFishingAnimationFrames();
+//     task->tFrameCounter++;
+//     if (JOY_NEW(A_BUTTON))
+//         task->tStep = FISHING_CHECK_MORE_DOTS;
+//     return FALSE;
+// }
 
 static bool32 Fishing_APressNoMinigame(struct Task *task)
 {
@@ -1982,31 +1978,19 @@ static bool32 Fishing_APressNoMinigame(struct Task *task)
 }
 
 // Determine if we're going to play the dot game again
-static bool32 Fishing_CheckMoreDots(struct Task *task)
-{
-    const s16 moreDotsChance[][2] =
-    {
-        [OLD_ROD]   = {0, 0},
-        [GOOD_ROD]  = {40, 10},
-        [SUPER_ROD] = {70, 30}
-    };
+// static bool32 Fishing_CheckMoreDots(struct Task *task)
+// {
+//     const s16 moreDotsChance[][2] =
+//     {
+//         [OLD_ROD]   = {0, 0},
+//         [GOOD_ROD]  = {40, 10},
+//         [SUPER_ROD] = {70, 30}
+//     };
 
-    AlignFishingAnimationFrames();
-    task->tStep = FISHING_MON_ON_HOOK;
-    if (task->tRoundsPlayed < task->tMinRoundsRequired)
-    {
-        task->tStep = FISHING_INIT_DOTS;
-    }
-    else if (task->tRoundsPlayed < 2)
-    {
-        // probability of having to play another round
-        s16 probability = Random() % 100;
-
-        if (moreDotsChance[task->tFishingRod][task->tRoundsPlayed] > probability)
-            task->tStep = FISHING_INIT_DOTS;
-    }
-    return FALSE;
-}
+//     AlignFishingAnimationFrames();
+//     task->tStep = FISHING_MON_ON_HOOK;
+//     return FALSE;
+// }
 
 static bool32 Fishing_MonOnHook(struct Task *task)
 {
