@@ -62,6 +62,11 @@ EventScript_PkmnCenterNurse_ReturnPkmn::
 	waitmessage
 	applymovement VAR_0x800B, Movement_PkmnCenterNurse_Bow
 	waitmovement 0
+	goto_if_unset FLAG_NUZLOCKE, EventScript_PkmnCenterNurse_ReturnPkmnDefault
+	special LevelCapToString
+	message gText_WeHopeToSeeYouAgain3
+	return
+EventScript_PkmnCenterNurse_ReturnPkmnDefault::
 	message gText_WeHopeToSeeYouAgain
 	goto EventScript_PkmnCenterNurse_PlayerTurn
 	return

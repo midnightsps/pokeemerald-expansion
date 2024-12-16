@@ -45,6 +45,8 @@
 #include "constants/items.h"
 #include "constants/songs.h"
 #include "constants/map_types.h"
+#include "battle_setup.h"
+#include "region_map.h"
 
 static void SetUpItemUseCallback(u8);
 static void FieldCB_UseItemOnField(void);
@@ -1098,6 +1100,12 @@ static const u8 sText_CantThrowPokeBall_SemiInvulnerable[] = _("Cannot throw a b
 static const u8 sText_CantThrowPokeBall_Disabled[] = _("POKé BALLS cannot be used\nright now!\p");
 void ItemUseInBattle_PokeBall(u8 taskId)
 {
+    if (gNuzlockeCannotCatch == 1){
+        GetMapNameHandleAquaHideout(gStringVar1, currLocConvertForNuzlocke(GetCurrentRegionMapSectionId()));
+        DisplayItemMessage(taskId, FONT_NORMAL, gText_BallsCannotBeUsedNuz, CloseItemMessage);
+        return;
+    }
+
     switch (GetBallThrowableState())
     {
     case BALL_THROW_ABLE:

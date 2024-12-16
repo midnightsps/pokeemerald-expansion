@@ -2999,7 +2999,7 @@ static void ClearSetBScriptingStruct(void)
     memset(&gBattleScripting, 0, sizeof(gBattleScripting));
 
     gBattleScripting.windowsType = temp;
-    gBattleScripting.battleStyle = gSaveBlock2Ptr->optionsBattleStyle;
+    gBattleScripting.battleStyle = gSaveBlock2Ptr->optionsBattleStyle || FlagGet(FLAG_NUZLOCKE);
     gBattleScripting.expOnCatch = (B_EXP_CATCH >= GEN_6);
     gBattleScripting.specialTrainerBattleType = specialBattleType;
 }
@@ -3683,6 +3683,14 @@ static void DoBattleIntro(void)
         if (!IsBattlerMarkedForControllerExec(GetBattlerAtPosition(B_POSITION_PLAYER_LEFT)))
             gBattleStruct->introState++;
         break;
+    case BATTLE_INTRO_STATE_NUZLOCKE_DUPES_TEXT:
+        if (gBattleControllerExecFlags == 0)
+        {
+            if (gNuzlockeCannotCatch == 2){  // If Pokemon was first in this route and was already caught
+                PrepareStringBattle(STRINGID_NUZLOCKEDUPS, 0);
+            }
+            gBattleStruct->introState++;
+        }
     case BATTLE_INTRO_STATE_PRINT_PLAYER_SEND_OUT_TEXT:
         if (!(gBattleTypeFlags & BATTLE_TYPE_SAFARI))
         {
@@ -5452,6 +5460,16 @@ static void HandleEndTurn_BattleWon(void)
     gBattleMainFunc = HandleEndTurn_FinishBattle;
 }
 
+static void BattleLostNuzlocke(void)
+{
+    if (gBattleControllerExecFlags == 0)
+    {
+        gBattleMainFunc = HandleEndTurn_FinishBattle;
+        PrepareStringBattle(STRINGID_NUZLOCKELOST, 0);
+        FlagClear(FLAG_NUZLOCKE);
+    }
+}
+
 static void HandleEndTurn_BattleLost(void)
 {
     gCurrentActionFuncId = 0;
@@ -5483,6 +5501,10 @@ static void HandleEndTurn_BattleLost(void)
     else
     {
         gBattlescriptCurrInstr = BattleScript_LocalBattleLost;
+        if (FlagGet(FLAG_NUZLOCKE) && FlagGet(FLAG_SYS_POKEDEX_GET)){
+            gBattleMainFunc = BattleLostNuzlocke;
+            return;
+        }
     }
 
     gBattleMainFunc = HandleEndTurn_FinishBattle;
@@ -5749,6 +5771,7 @@ static void ReturnFromBattleToOverworld(void)
 
 void RunBattleScriptCommands_PopCallbacksStack(void)
 {
+    gNuzlockeCannotCatch = 0;  // While not necissary, resetting this is nice to stay deterministic
     if (gCurrentActionFuncId == B_ACTION_TRY_FINISH || gCurrentActionFuncId == B_ACTION_FINISHED)
     {
         if (gBattleResources->battleCallbackStack->size != 0)
