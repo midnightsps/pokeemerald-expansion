@@ -515,41 +515,40 @@ static u16 GetEggSpecies(u16 species)
     return species;
 }
 
-static s32 GetParentToInheritNature(struct DayCare *daycare)
+static u8 GetParentToInheritNature(struct DayCare *daycare)
 {
-    u32 i;
-    u8 numWithEverstone = 0;
-    s32 slot = -1;
-
-    for (i = 0; i < DAYCARE_MON_COUNT; i++)
+    u16 motherItem = GetBoxMonData(&daycare->mons[0].mon, MON_DATA_HELD_ITEM);
+    u16 fatherItem = GetBoxMonData(&daycare->mons[1].mon, MON_DATA_HELD_ITEM);
+    if(motherItem == ITEM_EVERSTONE && fatherItem == ITEM_EVERSTONE)
     {
-        if (ItemId_GetHoldEffect(GetBoxMonData(&daycare->mons[i].mon, MON_DATA_HELD_ITEM)) == HOLD_EFFECT_PREVENT_EVOLVE
-            && (P_NATURE_INHERITANCE != GEN_3 || GetBoxMonGender(&daycare->mons[i].mon) == MON_FEMALE || IS_DITTO(GetBoxMonData(&daycare->mons[i].mon, MON_DATA_SPECIES))))
-        {
-            slot = i;
-            numWithEverstone++;
-        }
+    	if (Random() >= USHRT_MAX / 2)
+            return 0;
+        else
+            return 1;
+    }else
+    {
+    	if(motherItem == ITEM_EVERSTONE)
+    	{
+    		return 0;
+    	}
+    	if(fatherItem == ITEM_EVERSTONE)
+    	{
+    		return 1;
+    	}
     }
-
-    if (numWithEverstone >= DAYCARE_MON_COUNT)
-        return Random() & 1;
-
-    if (P_NATURE_INHERITANCE > GEN_4)
-        return slot;
-
-    return Random() & 1 ? slot : -1;
+    return 2;
 }
 
 static void _TriggerPendingDaycareEgg(struct DayCare *daycare)
 {
-    s32 parent;
+    u8 parent;
     s32 natureTries = 0;
 
     SeedRng2(gMain.vblankCounter2);
     parent = GetParentToInheritNature(daycare);
 
     // don't inherit nature
-    if (parent < 0)
+    if (parent > 1)
     {
         daycare->offspringPersonality = (Random2() << 16) | ((Random() % 0xfffe) + 1);
     }
