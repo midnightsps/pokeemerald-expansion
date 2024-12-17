@@ -2042,6 +2042,22 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_DynamaxCandy,
     },
 
+    [ITEM_INFINITE_CANDY] =
+    {
+        .name = _("Infinite Candy"),
+        .price = 0,
+        .importance = 1,
+        .description = COMPOUND_STRING(
+            "Raises the level\n"
+            "of a Pokémon by one\n"
+            "again and again."),
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_InfiniteCandy,
+        .iconPic = gItemIcon_InfiniteCandy,
+        .iconPalette = gItemIconPalette_InfiniteCandy,
+    },
+
 // Medicinal Flutes
 
     [ITEM_BLUE_FLUTE] =
@@ -13600,6 +13616,22 @@ const struct Item gItemsInfo[] =
         .flingPower = 10,
         .iconPic = gItemIcon_BerserkGene,
         .iconPalette = gItemIconPalette_BerserkGene,
+    },
+
+    [ITEM_INFINITE_REPEL] =
+    {
+        .name = _("Infinite Repel"),
+        .price = 0,
+        .importance = 1,
+        .description = COMPOUND_STRING(
+            "Repels all wild\n"
+            "Pokémon for any\n"
+            "number of steps."),
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_InfiniteRepel,
+        .iconPic = gItemIcon_InfiniteRepel,
+        .iconPalette = gItemIconPalette_InfiniteRepel,
     },
 
     [ITEM_FAIRY_FEATHER] =

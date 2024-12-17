@@ -535,6 +535,9 @@ LittlerootTown_ProfessorBirchsLab_EventScript_MayGivePokeBalls::
 	giveitem ITEM_POKE_BALL, 5
 	call_if_eq VAR_RESULT, FALSE, LittlerootTown_ProfessorBirchsLab_EventScript_MayNoRoomForPokeBalls
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls, MSGBOX_DEFAULT
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_InfiniteRepelTakeThis, MSGBOX_DEFAULT
+	giveitem ITEM_INFINITE_REPEL, 1
+	call_if_set FLAG_NUZLOCKE, LittlerootTown_ProfessorBirchsLab_EventScript_GiveInfiniteCandy
 	setvar VAR_RESULT, 0
 	return
 
@@ -543,7 +546,14 @@ LittlerootTown_ProfessorBirchsLab_EventScript_BrendanGivePokeBalls::
 	giveitem ITEM_POKE_BALL, 5
 	call_if_eq VAR_RESULT, FALSE, LittlerootTown_ProfessorBirchsLab_EventScript_BrendanNoRoomForPokeBalls
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls, MSGBOX_DEFAULT
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_InfiniteRepelTakeThis, MSGBOX_DEFAULT
+	giveitem ITEM_INFINITE_REPEL, 1
+	call_if_set FLAG_NUZLOCKE, LittlerootTown_ProfessorBirchsLab_EventScript_GiveInfiniteCandy
 	setvar VAR_RESULT, 1
+	return
+
+LittlerootTown_ProfessorBirchsLab_EventScript_GiveInfiniteCandy::
+	giveitem ITEM_INFINITE_CANDY, 1
 	return
 
 LittlerootTown_ProfessorBirchsLab_EventScript_ReceivePokedex::
@@ -800,6 +810,9 @@ LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls:
 	.string "to find different POKéMON.\p"
 	.string "If I find any cool POKéMON, you bet\n"
 	.string "I'll try to get them with POKé BALLS.$"
+
+LittlerootTown_ProfessorBirchsLab_Text_InfiniteRepelTakeThis:
+	.string "Please take this with you, too.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeyYourBagsFull:
 	.string "Hey, your BAG's full.$"

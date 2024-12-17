@@ -267,6 +267,9 @@ const u32 gItemIconPalette_ExpCandies[] = INCBIN_U32("graphics/items/icon_palett
 const u32 gItemIcon_DynamaxCandy[] = INCBIN_U32("graphics/items/icons/dynamax_candy.4bpp.lz");
 const u32 gItemIconPalette_DynamaxCandy[] = INCBIN_U32("graphics/items/icon_palettes/dynamax_candy.gbapal.lz");
 
+const u32 gItemIcon_InfiniteCandy[] = INCBIN_U32("graphics/items/icons/rare_candy.4bpp.lz");
+const u32 gItemIconPalette_InfiniteCandy[] = INCBIN_U32("graphics/items/icon_palettes/rare_candy.gbapal.lz");
+
 // Medicinal Flutes
 
 const u32 gItemIcon_Flute[] = INCBIN_U32("graphics/items/icons/flute.4bpp.lz");
@@ -2064,6 +2067,9 @@ const u32 gItemIconPalette_LustrousGlobe[] = INCBIN_U32("graphics/items/icon_pal
 
 const u32 gItemIcon_BerserkGene[] = INCBIN_U32("graphics/items/icons/berserk_gene.4bpp.lz");
 const u32 gItemIconPalette_BerserkGene[] = INCBIN_U32("graphics/items/icon_palettes/berserk_gene.gbapal.lz");
+
+const u32 gItemIcon_InfiniteRepel[] = INCBIN_U32("graphics/items/icons/repel.4bpp.lz");
+const u32 gItemIconPalette_InfiniteRepel[] = INCBIN_U32("graphics/items/icon_palettes/max_repel.gbapal.lz");
 
 const u32 gItemIcon_FairyFeather[] = INCBIN_U32("graphics/items/icons/fairy_feather.4bpp.lz");
 const u32 gItemIconPalette_FairyFeather[] = INCBIN_U32("graphics/items/icon_palettes/fairy_feather.gbapal.lz");

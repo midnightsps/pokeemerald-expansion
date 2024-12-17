@@ -22,7 +22,7 @@ u32 GetCurrentLevelCap(void)
 
     u32 i;
 
-    if (B_LEVEL_CAP_TYPE == LEVEL_CAP_FLAG_LIST)
+    if (B_LEVEL_CAP_TYPE == LEVEL_CAP_FLAG_LIST || FlagGet(FLAG_NUZLOCKE))
     {
         for (i = 0; i < ARRAY_COUNT(sLevelCapFlagMap); i++)
         {
@@ -46,7 +46,7 @@ u32 GetSoftLevelCapExpValue(u32 level, u32 expValue)
     u32 levelDifference;
     u32 currentLevelCap = GetCurrentLevelCap();
 
-    if (B_EXP_CAP_TYPE == EXP_CAP_NONE)
+    if (B_EXP_CAP_TYPE == EXP_CAP_NONE && !FlagGet(FLAG_NUZLOCKE))
         return expValue;
 
     if (level < currentLevelCap)
@@ -64,7 +64,7 @@ u32 GetSoftLevelCapExpValue(u32 level, u32 expValue)
             return expValue;
         }
     }
-    else if (B_EXP_CAP_TYPE == EXP_CAP_HARD)
+    else if (B_EXP_CAP_TYPE == EXP_CAP_HARD || FlagGet(FLAG_NUZLOCKE))
     {
         return 0;
     }
