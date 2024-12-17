@@ -5075,9 +5075,9 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Flamethrower
 
 === TRAINER_JUAN_1 ===
-Name: JUAN
+Name: WALLACE
 Class: Leader
-Pic: Leader Juan
+Pic: Champion Wallace
 Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
@@ -6241,9 +6241,9 @@ Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_WALLACE ===
-Name: WALLACE
+Name: STEVEN
 Class: Champion
-Pic: Champion Wallace
+Pic: Steven
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
@@ -9456,7 +9456,7 @@ Name: WALLY
 Class: Rival
 Pic: Wally
 Gender: Male
-Music: Male
+Music: Intense
 Items: Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
@@ -12050,7 +12050,7 @@ Name: WALLY
 Class: Rival
 Pic: Wally
 Gender: Male
-Music: Male
+Music: Intense
 Items: Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
@@ -12100,7 +12100,7 @@ Name: WALLY
 Class: Rival
 Pic: Wally
 Gender: Male
-Music: Male
+Music: Intense
 Items: Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
@@ -12150,7 +12150,7 @@ Name: WALLY
 Class: Rival
 Pic: Wally
 Gender: Male
-Music: Male
+Music: Intense
 Items: Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
@@ -12200,7 +12200,7 @@ Name: WALLY
 Class: Rival
 Pic: Wally
 Gender: Male
-Music: Male
+Music: Intense
 Items: Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
@@ -15602,9 +15602,9 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flamethrower
 
 === TRAINER_JUAN_2 ===
-Name: JUAN
+Name: WALLACE
 Class: Leader
-Pic: Leader Juan
+Pic: Champion Wallace
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
@@ -15652,9 +15652,9 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
 
 === TRAINER_JUAN_3 ===
-Name: JUAN
+Name: WALLACE
 Class: Leader
-Pic: Leader Juan
+Pic: Champion Wallace
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
@@ -15702,9 +15702,9 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
 
 === TRAINER_JUAN_4 ===
-Name: JUAN
+Name: WALLACE
 Class: Leader
-Pic: Leader Juan
+Pic: Champion Wallace
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
@@ -15760,9 +15760,9 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
 
 === TRAINER_JUAN_5 ===
-Name: JUAN
+Name: WALLACE
 Class: Leader
-Pic: Leader Juan
+Pic: Champion Wallace
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore

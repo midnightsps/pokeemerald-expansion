@@ -12526,11 +12526,11 @@ F_TRAINER_FEMALE |
     [TRAINER_JUAN_1] =
     {
 #line 5078
-        .trainerName = _("JUAN"),
+        .trainerName = _("WALLACE"),
 #line 5079
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 5080
-        .trainerPic = TRAINER_PIC_LEADER_JUAN,
+        .trainerPic = TRAINER_PIC_CHAMPION_WALLACE,
         .encounterMusic_gender = 
 #line 5082
             TRAINER_ENCOUNTER_MUSIC_MALE,
@@ -15468,11 +15468,11 @@ F_TRAINER_FEMALE |
     [TRAINER_WALLACE] =
     {
 #line 6244
-        .trainerName = _("WALLACE"),
+        .trainerName = _("STEVEN"),
 #line 6245
         .trainerClass = TRAINER_CLASS_CHAMPION,
 #line 6246
-        .trainerPic = TRAINER_PIC_CHAMPION_WALLACE,
+        .trainerPic = TRAINER_PIC_STEVEN,
         .encounterMusic_gender = 
 #line 6248
             TRAINER_ENCOUNTER_MUSIC_MALE,
