@@ -259,6 +259,10 @@ enum EvolutionMethods {
     EVO_LEVEL_ATK_LT_DEF,                // Pokémon reaches the specified level with attack < defense
     EVO_LEVEL_SILCOON,                   // Pokémon reaches the specified level with a Silcoon personality value
     EVO_LEVEL_CASCOON,                   // Pokémon reaches the specified level with a Cascoon personality value
+    EVO_LEVEL_DECIDUEYE,
+    EVO_LEVEL_DECIDUEYE_HISUI,
+    EVO_LEVEL_URSHIFU_SINGLE,
+    EVO_LEVEL_URSHIFU_RAPID,
     EVO_LEVEL_NINJASK,                   // Pokémon reaches the specified level (special value for Ninjask)
     EVO_LEVEL_SHEDINJA,                  // Pokémon reaches the specified level (special value for Shedinja)
     EVO_BEAUTY,                          // Pokémon levels up with beauty ≥ specified value

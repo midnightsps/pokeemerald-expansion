@@ -4570,6 +4570,22 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, enum EvolutionMode mode, u16 
                 if (evolutions[i].param <= level && (upperPersonality % 10) > 4)
                     targetSpecies = evolutions[i].targetSpecies;
                 break;
+            case EVO_LEVEL_DECIDUEYE:
+                if (evolutions[i].param <= level && (upperPersonality % 10) <= 4)
+                    targetSpecies = evolutions[i].targetSpecies;
+                break;
+            case EVO_LEVEL_DECIDUEYE_HISUI:
+                if (evolutions[i].param <= level && (upperPersonality % 10) > 4)
+                    targetSpecies = evolutions[i].targetSpecies;
+                break;
+            case EVO_LEVEL_URSHIFU_SINGLE:
+                if (evolutions[i].param <= level && (upperPersonality % 10) <= 4)
+                    targetSpecies = evolutions[i].targetSpecies;
+                break;
+            case EVO_LEVEL_URSHIFU_RAPID:
+                if (evolutions[i].param <= level && (upperPersonality % 10) > 4)
+                    targetSpecies = evolutions[i].targetSpecies;
+                break;
             case EVO_LEVEL_NINJASK:
                 if (evolutions[i].param <= level)
                     targetSpecies = evolutions[i].targetSpecies;
