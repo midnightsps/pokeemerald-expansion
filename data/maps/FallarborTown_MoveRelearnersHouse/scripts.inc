@@ -10,7 +10,8 @@ FallarborTown_MoveRelearnersHouse_EventScript_MoveRelearner::
 	goto_if_set FLAG_TEMP_1, FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove
 	msgbox FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor, MSGBOX_DEFAULT
 	setflag FLAG_TEMP_1
-	goto FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove
+	setflag FLAG_SUMMARY_SCREEN_MOVE_RELEARNER
+	goto FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon
 	end
 
 FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove::
@@ -38,9 +39,6 @@ FallarborTown_MoveRelearnersHouse_EventScript_ChooseMove::
 	special TeachMoveRelearnerMove
 	waitstate
 	goto_if_eq VAR_0x8004, 0, FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon
-	msgbox FallarborTown_MoveRelearnersHouse_Text_HandedOverHeartScale, MSGBOX_DEFAULT
-	removeitem ITEM_HEART_SCALE
-	goto FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale
 	end
 
 FallarborTown_MoveRelearnersHouse_EventScript_NoMoveToTeachMon::
@@ -64,9 +62,7 @@ FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor:
 	.string "learn--every one of them--and I can\l"
 	.string "teach POKéMON those moves.\p"
 	.string "I can teach a move to a POKéMON\n"
-	.string "of yours if you'd like.\p"
-	.string "I'll do it for a HEART SCALE.\n"
-	.string "I'm collecting those now.$"
+	.string "of yours if you'd like.$"
 
 FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
 	.string "Oh! That's it! That's an honest to\n"

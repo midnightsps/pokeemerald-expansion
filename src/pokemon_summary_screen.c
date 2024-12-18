@@ -52,6 +52,7 @@
 #include "constants/rgb.h"
 #include "constants/songs.h"
 #include "battle_setup.h"
+#include "event_data.h"
 
 // Screen titles (upper left)
 #define PSS_LABEL_WINDOW_POKEMON_INFO_TITLE 0
@@ -1547,7 +1548,7 @@ static bool8 ExtractMonDataToSummaryStruct(struct Pokemon *mon)
         sum->ribbonCount = GetMonData(mon, MON_DATA_RIBBON_COUNT);
         sum->teraType = GetMonData(mon, MON_DATA_TERA_TYPE);
         sum->isShiny = GetMonData(mon, MON_DATA_IS_SHINY);
-        sMonSummaryScreen->relearnableMovesNum = P_SUMMARY_SCREEN_MOVE_RELEARNER ? GetNumberOfRelearnableMoves(mon) : 0;
+        sMonSummaryScreen->relearnableMovesNum = FlagGet(FLAG_SUMMARY_SCREEN_MOVE_RELEARNER) ? GetNumberOfRelearnableMoves(mon) : 0;
         return TRUE;
     }
     sMonSummaryScreen->switchCounter++;
@@ -1845,7 +1846,7 @@ static void Task_ChangeSummaryMon(u8 taskId)
         }
         else
         {
-            if (P_SUMMARY_SCREEN_MOVE_RELEARNER
+            if (FlagGet(FLAG_SUMMARY_SCREEN_MOVE_RELEARNER)
                 && (sMonSummaryScreen->currPageIndex == PSS_PAGE_BATTLE_MOVES || sMonSummaryScreen->currPageIndex == PSS_PAGE_CONTEST_MOVES))
             {
                 if (ShouldShowMoveRelearner())
@@ -4538,7 +4539,7 @@ static void KeepMoveSelectorVisible(u8 firstSpriteId)
 
 static inline bool32 ShouldShowMoveRelearner(void)
 {
-    return (P_SUMMARY_SCREEN_MOVE_RELEARNER
+    return (FlagGet(FLAG_SUMMARY_SCREEN_MOVE_RELEARNER)
          && !sMonSummaryScreen->lockMovesFlag
          && sMonSummaryScreen->mode != SUMMARY_MODE_BOX
          && sMonSummaryScreen->mode != SUMMARY_MODE_BOX_CURSOR

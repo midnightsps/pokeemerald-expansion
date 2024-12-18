@@ -23623,7 +23623,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_WALLY,
         .encounterMusic_gender = 
 #line 9459
-            TRAINER_ENCOUNTER_MUSIC_MALE,
+            TRAINER_ENCOUNTER_MUSIC_INTENSE,
 #line 9460
         .items = { ITEM_FULL_RESTORE, ITEM_FULL_RESTORE },
 #line 9461
@@ -30251,7 +30251,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_WALLY,
         .encounterMusic_gender = 
 #line 12053
-            TRAINER_ENCOUNTER_MUSIC_MALE,
+            TRAINER_ENCOUNTER_MUSIC_INTENSE,
 #line 12054
         .items = { ITEM_FULL_RESTORE, ITEM_FULL_RESTORE },
 #line 12055
@@ -30364,7 +30364,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_WALLY,
         .encounterMusic_gender = 
 #line 12103
-            TRAINER_ENCOUNTER_MUSIC_MALE,
+            TRAINER_ENCOUNTER_MUSIC_INTENSE,
 #line 12104
         .items = { ITEM_FULL_RESTORE, ITEM_FULL_RESTORE },
 #line 12105
@@ -30477,7 +30477,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_WALLY,
         .encounterMusic_gender = 
 #line 12153
-            TRAINER_ENCOUNTER_MUSIC_MALE,
+            TRAINER_ENCOUNTER_MUSIC_INTENSE,
 #line 12154
         .items = { ITEM_FULL_RESTORE, ITEM_FULL_RESTORE },
 #line 12155
@@ -30590,7 +30590,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_WALLY,
         .encounterMusic_gender = 
 #line 12203
-            TRAINER_ENCOUNTER_MUSIC_MALE,
+            TRAINER_ENCOUNTER_MUSIC_INTENSE,
 #line 12204
         .items = { ITEM_FULL_RESTORE, ITEM_FULL_RESTORE },
 #line 12205
@@ -38964,11 +38964,11 @@ F_TRAINER_FEMALE |
     [TRAINER_JUAN_2] =
     {
 #line 15605
-        .trainerName = _("JUAN"),
+        .trainerName = _("WALLACE"),
 #line 15606
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 15607
-        .trainerPic = TRAINER_PIC_LEADER_JUAN,
+        .trainerPic = TRAINER_PIC_CHAMPION_WALLACE,
         .encounterMusic_gender = 
 #line 15609
             TRAINER_ENCOUNTER_MUSIC_MALE,
@@ -39081,11 +39081,11 @@ F_TRAINER_FEMALE |
     [TRAINER_JUAN_3] =
     {
 #line 15655
-        .trainerName = _("JUAN"),
+        .trainerName = _("WALLACE"),
 #line 15656
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 15657
-        .trainerPic = TRAINER_PIC_LEADER_JUAN,
+        .trainerPic = TRAINER_PIC_CHAMPION_WALLACE,
         .encounterMusic_gender = 
 #line 15659
             TRAINER_ENCOUNTER_MUSIC_MALE,
@@ -39198,11 +39198,11 @@ F_TRAINER_FEMALE |
     [TRAINER_JUAN_4] =
     {
 #line 15705
-        .trainerName = _("JUAN"),
+        .trainerName = _("WALLACE"),
 #line 15706
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 15707
-        .trainerPic = TRAINER_PIC_LEADER_JUAN,
+        .trainerPic = TRAINER_PIC_CHAMPION_WALLACE,
         .encounterMusic_gender = 
 #line 15709
             TRAINER_ENCOUNTER_MUSIC_MALE,
@@ -39333,11 +39333,11 @@ F_TRAINER_FEMALE |
     [TRAINER_JUAN_5] =
     {
 #line 15763
-        .trainerName = _("JUAN"),
+        .trainerName = _("WALLACE"),
 #line 15764
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 15765
-        .trainerPic = TRAINER_PIC_LEADER_JUAN,
+        .trainerPic = TRAINER_PIC_CHAMPION_WALLACE,
         .encounterMusic_gender = 
 #line 15767
             TRAINER_ENCOUNTER_MUSIC_MALE,
