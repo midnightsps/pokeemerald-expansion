@@ -3908,6 +3908,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .teachableLearnset = sBasculinTeachableLearnset,
         .eggMoveLearnset = sBasculinEggMoveLearnset,
         .formSpeciesIdTable = sBasculinFormSpeciesIdTable,
+        .evolutions = EVOLUTION({EVO_MAPSEC, MAPSEC_ABANDONED_SHIP, SPECIES_BASCULEGION_M}),
     },
 
     [SPECIES_BASCULIN_BLUE_STRIPED] =
@@ -3973,6 +3974,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .teachableLearnset = sBasculinTeachableLearnset,
         .eggMoveLearnset = sBasculinEggMoveLearnset,
         .formSpeciesIdTable = sBasculinFormSpeciesIdTable,
+        .evolutions = EVOLUTION({EVO_MAPSEC, MAPSEC_ABANDONED_SHIP, SPECIES_BASCULEGION_M}),
     },
 
 #if P_HISUIAN_FORMS
@@ -4038,8 +4040,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .levelUpLearnset = sBasculinWhiteStripedLevelUpLearnset,
         .teachableLearnset = sBasculinWhiteStripedTeachableLearnset,
         .formSpeciesIdTable = sBasculinFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_MAPSEC, MAPSEC_ABANDONED_SHIP, SPECIES_BASCULEGION_M},
-                                {EVO_MAPSEC, MAPSEC_ABANDONED_SHIP, SPECIES_BASCULEGION_F}),
+        .evolutions = EVOLUTION({EVO_MAPSEC, MAPSEC_ABANDONED_SHIP, SPECIES_BASCULEGION_M}),
     },
 
     [SPECIES_BASCULEGION_M] =
