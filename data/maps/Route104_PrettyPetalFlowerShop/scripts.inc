@@ -64,8 +64,7 @@ Route104_PrettyPetalFlowerShop_Pokemart_Plants:
 	.2byte ITEM_LUM_BERRY
 	.2byte ITEM_LEPPA_BERRY
 	.2byte ITEM_NONE
-	release
-	end
+	pokemartlistend
 
 Route104_PrettyPetalFlowerShop_EventScript_WailmerPailGirl::
 	lock
