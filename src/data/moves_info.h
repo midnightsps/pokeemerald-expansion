@@ -11310,7 +11310,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "Fires a beam of electricity\n"
             "that raises Sp. Atk."),
         .effect = EFFECT_HIT,
-        .power = 50,
+        .power = 40,
         .type = TYPE_ELECTRIC,
         .accuracy = 100,
         .pp = 10,
@@ -19664,7 +19664,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "Rigged bouquet. Always gets\n"
             "a critical hit, never missing."),
         .effect = EFFECT_HIT,
-        .power = 70,
+        .power = 60,
         .type = TYPE_GRASS,
         .accuracy = 0,
         .pp = 10,
@@ -19682,7 +19682,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "Flames scorch the target.\n"
             "Boosts the user's Sp. Atk."),
         .effect = EFFECT_HIT,
-        .power = 80,
+        .power = 40,
         .type = TYPE_FIRE,
         .accuracy = 100,
         .pp = 10,
@@ -19706,7 +19706,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "Hits with light, fluid dance\n"
             "steps. Ups the user's Speed."),
         .effect = EFFECT_HIT,
-        .power = 80,
+        .power = 50,
         .type = TYPE_WATER,
         .accuracy = 100,
         .pp = 10,
