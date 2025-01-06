@@ -2,56 +2,56 @@
 #define GUARD_CONSTANTS_TMS_HMS_H
 
 #define FOREACH_TM(F) \
-    F(FOCUS_PUNCH) \
-    F(DRAGON_CLAW) \
-    F(WATER_PULSE) \
-    F(CALM_MIND) \
-    F(ROAR) \
-    F(TOXIC) \
-    F(HAIL) \
-    F(BULK_UP) \
-    F(BULLET_SEED) \
-    F(HIDDEN_POWER) \
-    F(SUNNY_DAY) \
-    F(TAUNT) \
-    F(ICE_BEAM) \
-    F(BLIZZARD) \
-    F(HYPER_BEAM) \
-    F(LIGHT_SCREEN) \
-    F(PROTECT) \
-    F(RAIN_DANCE) \
-    F(GIGA_DRAIN) \
-    F(SAFEGUARD) \
-    F(FRUSTRATION) \
-    F(SOLAR_BEAM) \
-    F(IRON_TAIL) \
-    F(THUNDERBOLT) \
-    F(THUNDER) \
-    F(EARTHQUAKE) \
-    F(RETURN) \
-    F(DIG) \
-    F(PSYCHIC) \
-    F(SHADOW_BALL) \
-    F(BRICK_BREAK) \
-    F(DOUBLE_TEAM) \
-    F(REFLECT) \
+    F(STRUGGLE_BUG) \
+    F(X_SCISSOR) \
+    F(DARK_PULSE) \
+    F(FEINT_ATTACK) \
+    F(FLATTER) \
+    F(BREAKING_SWIPE) \
+    F(DRAGON_TAIL) \
+    F(ELECTROWEB) \
     F(SHOCK_WAVE) \
+    F(THUNDERBOLT) \
+    F(DRAINING_KISS) \
+    F(MISTY_EXPLOSION) \
+    F(PLAY_ROUGH) \
+    F(AURA_SPHERE) \
+    F(BODY_PRESS) \
+    F(SEISMIC_TOSS) \
     F(FLAMETHROWER) \
-    F(SLUDGE_BOMB) \
-    F(SANDSTORM) \
-    F(FIRE_BLAST) \
-    F(ROCK_TOMB) \
+    F(WILL_O_WISP) \
     F(AERIAL_ACE) \
-    F(TORMENT) \
+    F(DEFOG) \
+    F(DUAL_WINGBEAT) \
+    F(ROOST) \
+    F(TAILWIND) \
+    F(CURSE) \
+    F(NIGHT_SHADE) \
+    F(SHADOW_BALL) \
+    F(MAGICAL_LEAF) \
+    F(SOLAR_BLADE) \
+    F(SOLAR_BEAM) \
+    F(EARTH_POWER) \
+    F(EARTHQUAKE) \
+    F(ICE_BEAM) \
+    F(ICY_WIND) \
+    F(EXPLOSION) \
     F(FACADE) \
-    F(SECRET_POWER) \
-    F(REST) \
-    F(ATTRACT) \
-    F(THIEF) \
-    F(STEEL_WING) \
+    F(HYPER_VOICE) \
+    F(SWAGGER) \
+    F(ME_FIRST) \
+    F(WEATHER_BALL) \
+    F(SLUDGE_BOMB) \
+    F(HEAL_PULSE) \
+    F(PSYCHIC) \
+    F(PSYCHIC_FANGS) \
     F(SKILL_SWAP) \
-    F(SNATCH) \
-    F(OVERHEAT)
+    F(ROCK_BLAST) \
+    F(ROCK_TOMB) \
+    F(FLASH_CANNON) \
+    F(HEAVY_SLAM) \
+    F(SMART_STRIKE) \
+    F(LIFE_DEW)
 
 #define FOREACH_HM(F) \
     F(CUT) \
